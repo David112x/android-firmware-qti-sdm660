@@ -56,11 +56,3 @@ How do I build the bootloader?
 How do I build everything?
 ==================
 Well, for now you may only build bootloader, I'll add a build script that can build everything soon.
-
-Where did you find this source?
-==================
-I initially found it by doing some research about the internal strings and version strings I kept seeing in the firmware of my Xiaomi Redmi Note 7 (codenamed "lavender") and I stumbled upon a custom hosted GitLab in a Chinese site called "Mingwork", I check it out and it was Snapdragon 660 firmware, along with some more goodies, Mingwork seems to be a company that offers software development tools and solutions such as their custom hosted GitLab server which you can use just fine if you're in china, if you're not, good luck downloading anything from there.
-
-What were your plans with this source?
-==================
-Well my plans were to keep it a secret and use it to develop custom firmware for the Xiaomi Redmi Note 7 but I figured out I couldn't do this myself alone so I just made the repository public a while ago, I wanted to make my Redmi Note 7 do things that Xiaomi never meant it to, like booting an OS such as a Linux distribution (or distro for short) or Windows 10/11 for ARM64, all of this because of a single joke... *What happens if I were to compile Gentoo in my phone?*
