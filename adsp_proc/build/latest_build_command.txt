@@ -1,1 +1,1 @@
-build/build.py -o clean -c sdm660
+build/build.py -c sdm660 -f ADSP -o all

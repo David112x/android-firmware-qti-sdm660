@@ -1,0 +1,2 @@
+./cdsp_proc/success
+./cdsp_proc/dsp_660.cdsp.prodQ.elf

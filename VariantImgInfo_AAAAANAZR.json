@@ -1,0 +1,18 @@
+{
+   "_comments": {
+      " ***": "DO NOT EDIT - AUTO GENERATED FILE", 
+      "Copyright": "Copyright (c) 2020 by QUALCOMM, Incorporated.  All Rights Reserved.", 
+      "Description": "None", 
+      "Generated": "Fri Jun 19 20:00:34 2020", 
+      "Name": "VariantImgInfo_AAAAANAZR.json"
+   }, 
+   "images": [
+      {
+         "bid": "AAAAANAZR", 
+         "name": "RPM", 
+         "path": "rpm_proc/core/bsp/rpm/build/RPM_AAAAANAZR", 
+         "scons": "rpm_proc/build", 
+         "uuid": "Q_SENTINEL_{BE8CFFB5-C309-439C-AF45-CD6075FBDAA3}_20200619_2000"
+      }
+   ]
+}

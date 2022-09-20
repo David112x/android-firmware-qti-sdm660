@@ -1,87 +1,26 @@
-Start Time = Mon Mar 30 00:22:12 PDT 2020
+Start Time = Tue Sep 20 13:04:13 UTC 2022
 #-------------------------------------------------------------------------------
 # ENVIRONMENT BEGIN
 #-------------------------------------------------------------------------------
-declare -x ADS120HOME="/pkg/asw/compilers/arm/ADS1.2"
 declare -x APPS_DIR="pkg/qct/software"
 declare -x APPS_PATH="/pkg/qct/software"
-declare -x ARM12HOME="/pkg/asw/compilers/arm/ADS1.2"
-declare -x ARMCC41_ASMOPT="--sitelicense"
-declare -x ARMCC41_CCOPT="--sitelicense"
-declare -x ARMCC41_LINKOPT="--sitelicense"
-declare -x ARMCC5_ASMOPT="--sitelicense"
-declare -x ARMCC5_CCOPT="--sitelicense"
-declare -x ARMCC5_LINKOPT="--sitelicense"
-declare -x ARMCONF="/pkg/asw/compilers/arm/ADS1.2/bin"
-declare -x ARMDLL="/pkg/asw/compilers/arm/ADS1.2/bin"
-declare -x ARMHOME="/pkg/asw/compilers/arm/ADS1.2"
-declare -x ARMINC="/pkg/asw/compilers/arm/ADS1.2/common/include"
-declare -x ARMINCLUDE="/pkg/asw/compilers/arm/ADS1.2/common/include"
-declare -x ARMLIB="/pkg/asw/compilers/arm/ADS1.2/lib"
-declare -x ARMLMD_LICENSE_FILE="7117@license-wan-arm1:7117@license-wan-hyd"
-declare -x ARMROOT="/pkg/asw/compilers/arm/ADS1.2"
+declare -x ARMHOME=""
 declare -x ARMTOOLS="ARMCT6"
-declare -x BASH_ENV="/usr2/qctecmdr/.bashrc"
-declare -x BATCHMODE="ECOMMANDER"
-declare -x BLD_ENV_BUILD_ID="S660AAAAANAZT"
-declare -x BLD_ENV_VER_NUM_COMPRESSED="00006"
-declare -x BLD_ENV_VER_NUM_DOTTED="00006"
-declare -x BMONGR="BUILD"
 declare -x BUILDSPEC="KLOCKWORK"
-declare -x BUILD_FIXSIG=" "
 declare -x CCBIN="/pkg/qct/software/BullseyeCoverage/bin"
 declare -x CCPATH="/pkg/qct/software/BullseyeCoverage"
 declare -x CCTOOL="BullseyeCoverage"
-declare -x COMMANDER_ARTIFACT_CACHE="/opt/electriccloud/electriccommander/artifact-cache"
-declare -x COMMANDER_DATA="/opt/electriccloud/electriccommander"
-declare -x COMMANDER_HOME="/opt/electriccloud/electriccommander"
-declare -x COMMANDER_HTTPS_PORT="8443"
-declare -x COMMANDER_HTTP_PROXY="http://localhost:6800/"
-declare -x COMMANDER_INITIAL_DELAY_BETWEEN_RETRIES_FOR_RETRIEVE_ARTIFACT="100"
-declare -x COMMANDER_JOBID="ea724fe6-cbcc-f14a-9d39-9cdc7174db18"
-declare -x COMMANDER_JOBSTEPID="ea724fe7-286b-f124-a0cc-f0921c14c828"
-declare -x COMMANDER_MAXIMUM_DELAY_BETWEEN_RETRIES_FOR_RETRIEVE_ARTIFACT="30000"
-declare -x COMMANDER_NUMBER_OF_RETRIES_FOR_RETRIEVE_ARTIFACT="3"
-declare -x COMMANDER_PLUGINS="/opt/electriccloud/electriccommander/plugins"
-declare -x COMMANDER_PORT="8000"
-declare -x COMMANDER_RESOURCENAME="crm-ubuntu138"
-declare -x COMMANDER_SERVER="qso-bicmdr.qualcomm.com"
-declare -x COMMANDER_SESSIONID="TQKDNCLO2N5XWNTE"
-declare -x COMMANDER_WORKSPACE="/prj/qct/asw/ecmdr_ws_crm/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
-declare -x COMMANDER_WORKSPACE_NAME="crm_ws_sd"
-declare -x COMMANDER_WORKSPACE_UNIX="/prj/qct/asw/ecmdr_ws_crm/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
-declare -x COMMANDER_WORKSPACE_WINDRIVE="M:\\TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
-declare -x COMMANDER_WORKSPACE_WINUNC="\\\\qctdfsrt\\prj\\qct\\asw\\ecmdr_ws_crm\\TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
 declare -x CRMPERL="/usr/bin"
-declare -x CRMSERVERNAME="crm-ubuntu138"
-declare -x CRM_BUILDID="TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2"
-declare -x CRM_DB_HOST="Oil"
-declare -x CRM_DB_NAME="AswProductionDataBase"
-declare -x ECIMP_DEBUGFILE="ecimp.log"
-declare -x ECIMP_READTIMEOUT="300"
-declare -x ECWRAPPER_DEBUGFILE="ecwrapper.log"
-declare -x ECWRAPPER_SLEEPTIME="5000"
-declare -x ECWRAPPER_WRITE_MAX_ATTEMPTS="20"
-declare -x ECWRAPPER_WRITE_RETRY_INTERVAL="5000"
-declare -x EC_LOG_ROOT="logs/agent/jagent.log"
-declare -x EMAKE_OPTS="--emake-class=CRM_PROD"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
 declare -x GNUARM7="/prj/llvm-arm/home/common/build_tools/gcc-linaro-arm-linux-gnueabihf-4.8-2014.02_linux"
 declare -x GNULIBC="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07/aarch64-linux-gnu/libc"
 declare -x GNUPATH="/pkg/pkg/gnu/bin"
 declare -x GNUROOT="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07"
 declare -x GNUTOOL="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07/aarch64-linux-gnu"
-declare -x HAVANA_TOOLCHAIN="/pkg/qct/software/arm/Sourcery_G++_Lite/bin"
-declare -x HOME="/usr2/aswbldsv"
-declare -x HOMEBREW_CACHE="/usr2/qctecmdr/.linuxbrew/cache"
-declare -x INFOPATH="/usr2/qctecmdr/.linuxbrew/share/info:/usr2/qctecmdr/.linuxbrew/share/info:/usr2/qctecmdr/.linuxbrew/share/info:/usr2/qctecmdr/.linuxbrew/share/info:/usr2/qctecmdr/.linuxbrew/share/info:"
-declare -x JOBNAME="TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
-declare -x JOB_WORKSPACE="/local/mnt/workspace"
-declare -x LANG="en_US"
-declare -x LANGUAGE="en_US:"
-declare -x LC_ALL="en_US.UTF-8"
-declare -x LD_LIBRARY_PATH="/pkg/qct/qctss/linux/ubuntu/16.04/lib::/pkg/qct/qctss/linux/ubuntu/16.04/lib:/pkg/qct/qctss/linux/ubuntu/lib:/pkg/qct/qctss/linux/ubuntu/lib"
-declare -x LD_LIBRARY_PATH_ORIG="/pkg/qct/qctss/linux/ubuntu/16.04/lib::/pkg/qct/qctss/linux/ubuntu/16.04/lib:/pkg/qct/qctss/linux/ubuntu/lib"
-declare -x LINUXBUILDSERVER=""
+declare -x HOME="/home/david"
+declare -x LANG="C.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
 declare -x LLVM32INC="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32/include"
 declare -x LLVMBIN="/pkg/qct/software/llvm/release/arm/3.7.6/bin"
 declare -x LLVMCLANG="/pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6"
@@ -91,88 +30,49 @@ declare -x LLVMLIBPROP="/pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6
 declare -x LLVMROOT="/pkg/qct/software/llvm/release/arm/3.7.6"
 declare -x LLVMTOOLPATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/bin"
 declare -x LLVMTOOLS="LLVM"
-declare -x LOGNAME="aswbldsv"
-declare -x MAIL="/var/mail/aswbldsv"
+declare -x LOGNAME="david"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MAIL="/var/mail/david"
 declare -x MAKE_PATH="/pkg/gnu/make/3.81/bin"
-declare -x MANPATH="/usr2/qctecmdr/.linuxbrew/share/man:/usr2/qctecmdr/.linuxbrew/share/man:/usr2/qctecmdr/.linuxbrew/share/man:/usr2/qctecmdr/.linuxbrew/share/man:/usr2/qctecmdr/.linuxbrew/share/man:"
 declare -x MUSL32PATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32"
 declare -x MUSLPATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64"
-declare -x ODBCSYSINI="/pkg/qct/qctss/linux/ubuntu/16.04/etc"
-declare -x OLDPWD
-declare -x ONLINUXSERVER="TRUE"
-declare -x P4CLIENT="CRM_TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2"
-declare -x P4PORT="aswp401:1666"
-declare -x P4SERVICE_MAX_RETRY_ATTEMPT="0"
-declare -x PATH="/usr2/qctecmdr/.linuxbrew/bin:/pkg/gnu/make/3.81/bin:/pkg/qct/software/python/2.7/bin:/pkg/qct/software/llvm/release/arm/3.7.6/bin:/usr2/qctecmdr/.linuxbrew/bin:/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006:/usr2/aswbldsv/bin::/pkg/asw/tools/scons/bin:/pkg/asw/compilers/gnu/crosstool/arm/bin:/pkg/asw/tools/bin:/pkg/asw/compilers/arm/ADS1.2/bin:/sbin:/pkg/qct/software/gnu/make/3.81/bin:/pkg/qct/qctss/linux/bin:/usr/local/bin:/usr2/qctecmdr/.linuxbrew/bin:/usr2/qctecmdr/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/electriccloud/electriccommander/bin:/usr/local/bin:/opt/electriccloud/electriccommander/bin:/pkg/qct/software/electriccloud/electriccommander/prod/bin:/pkg/qct/qctss/linux/bin:/usr2/qctecmdr/.local/bin:/usr/local/bin:/opt/electriccloud/electriccommander/bin:/pkg/qct/software/electriccloud/electriccommander/prod/bin:/pkg/qct/qctss/linux/bin:/usr2/qctecmdr/.local/bin:/usr2/aswbldsv/bin:/pkg/qct/qctss/linux/bin:/opt/electriccloud/electriccommander/bin:/usr/local/bin:/opt/electriccloud/electriccommander/bin:/pkg/qct/software/electriccloud/electriccommander/prod/bin:/pkg/qct/qctss/linux/bin:/usr2/qctecmdr/.local/bin:.:/usr/local/bin:/opt/electriccloud/electriccommander/bin:/pkg/qct/software/electriccloud/electriccommander/prod/bin:/pkg/qct/qctss/linux/bin:/usr2/qctecmdr/.local/bin"
-declare -x PCM_WEBSERVICE_URL="https://pcm/pcmservice/PcmWebService.V20171129.svc?wsdl"
+declare -x OLDPWD="/home/david/workspace/firmware/boot_images/QcomPkg/Sdm660Pkg"
+declare -x PATH="/pkg/gnu/make/3.81/bin:/pkg/qct/software/python/2.7/bin:/pkg/qct/software/llvm/release/arm/3.7.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 declare -x PERLPATH="/usr/bin"
-declare -x PKG_DIST="/pkg/qct/qctss/linux/bin"
-declare -x PWD="/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms"
+declare -x PWD="/home/david/workspace/firmware/trustzone_images/build/ms"
 declare -x PYTHONBIN="/pkg/qct/software/python/2.7/bin"
 declare -x PYTHON_PATH="/pkg/qct/software/python/2.7/bin"
-declare -x QSWATMETRIC_ID="385679738"
-declare -x Q_XTENSA_TOOLS="/pkg/qct/software/xtensa"
 declare -x ROOT_DRIVE="/"
-declare -x RVCT22_ASMOPT="--fastlicense --sitelicense"
-declare -x RVCT22_CCOPT="--fastlicense --sitelicense"
-declare -x RVCT22_LINKOPT="--fastlicense --sitelicense"
-declare -x RVCT30_ASMOPT="--fastlicense --sitelicense"
-declare -x RVCT30_CCOPT="--fastlicense --sitelicense"
-declare -x RVCT30_LINKOPT="--fastlicense --sitelicense"
-declare -x RVCT31_ASMOPT="--sitelicense"
-declare -x RVCT31_CCOPT="--sitelicense"
-declare -x RVCT31_LINKOPT="--sitelicense"
-declare -x RVCT40_ASMOPT="--sitelicense"
-declare -x RVCT40_CCOPT="--sitelicense"
-declare -x RVCT40_LINKOPT="--sitelicense"
-declare -x SCONS_OEM_BUILD_VER="CRM"
 declare -x SHELL="/bin/bash"
-declare -x SHLVL="6"
-declare -x SOFTWARE_COMPONENT_WEBSERVICE_URL="https://pcm/pcmservice/SoftwareComponentWebService.V20171129.svc?wsdl"
-declare -x SOFTWARE_IMAGE_WEBSERVICE_URL="https://pcm/pcmservice/SoftwareImageWebService.V20171129.svc?wsdl"
-declare -x SOFTWARE_REVISION_SERVICE_URL="https://csds/SoftwareRevisionService.V20171108.svc?wsdl"
-declare -x USER="aswbldsv"
-declare -x USERNAME="c_venkba"
+declare -x SHLVL="4"
+declare -x SSH_CLIENT="186.116.66.170 49648 22"
+declare -x SSH_CONNECTION="186.116.66.170 49648 10.0.0.4 22"
+declare -x SSH_TTY="/dev/pts/0"
+declare -x TERM="xterm-256color"
+declare -x USER="david"
 declare -x UTILROOT="/pkg"
-declare -x WRAPPER_ARCH="x86"
-declare -x WRAPPER_BIN_DIR="/opt/electriccloud/electriccommander/agent/bin"
-declare -x WRAPPER_BITS="64"
-declare -x WRAPPER_CONF_DIR="/opt/electriccloud/electriccommander/conf/agent"
-declare -x WRAPPER_FILE_SEPARATOR="/"
-declare -x WRAPPER_HOSTNAME="crm-ubuntu138"
-declare -x WRAPPER_HOST_NAME="crm-ubuntu138"
-declare -x WRAPPER_INIT_DIR="/usr2/qctecmdr"
-declare -x WRAPPER_LANG="en"
-declare -x WRAPPER_OS="linux"
-declare -x WRAPPER_PATH_SEPARATOR=":"
-declare -x WRAPPER_PID="3748"
-declare -x WRAPPER_WORKING_DIR="/opt/electriccloud/electriccommander"
 declare -x XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/snapd/desktop"
-declare -x XDG_RUNTIME_DIR="/run/user/69278"
-declare -x XDG_SESSION_ID="c1"
-declare -x XFILESEARCHPATH="/usr/dt/app-defaults/%L/Dt"
-declare -x XTENSAD_LICENSE_FILE="2100@license-tensilica-wan"
-declare -x XTENSA_PREFER_LICENSE="GENERIC"
-declare -x relwork="\\\\crm-ubuntu138\\CRMBuilds\\TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SESSION_ID="1"
 #-------------------------------------------------------------------------------
 # ENVIRONMENT END
 #-------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------
 # BUILD BEGIN
 #-------------------------------------------------------------------------------
-/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/tools/build/scons/build/../SCons/scons -f target.scons BUILD_ID=KAJAANAA HAL_PLATFORM=660 SOC_HW_VERSION=0x30060000 MSM_ID=660 BUILD_VER=40000000 SOC_VERS=0x3007 SIGNTYPE=CASS BUILD_ASIC=660 SIGNPORT=50100 TARGET_FAMILY=honeybadger SIGNSERVER=tz-int-12.qualcomm.com CHIPSET=sdm660 secure_ui_sample
+/home/david/workspace/firmware/trustzone_images/tools/build/scons/build/../SCons/scons -f target.scons BUILD_ID=KAJAANAA HAL_PLATFORM=660 SOC_HW_VERSION=0x30060000 MSM_ID=660 BUILD_VER=40000000 SOC_VERS=0x3007 BUILD_ASIC=660 TARGET_FAMILY=honeybadger CHIPSET=sdm660 devcfg
 scons: Reading SConscript files ...
 ------------------------------------------------------------------------------
    Loading OEM build system
 ------------------------------------------------------------------------------
-PYTHON Ver    = 2.7 (r27:82500, Aug 26 2010, 03:59:29) 
-[GCC 3.3.3 (SuSE Linux)] 
+PYTHON Ver    = 2.7.17 (default, Jul  1 2022, 15:56:32) 
+[GCC 7.5.0] 
 SCONS Ver     = 2.0.0.final.0 
 SCONS QAPI    = 1.0.6 
-TARGET_ROOT   = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11 
-BUILD_ROOT    = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images 
-BUILD_MS_ROOT = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms 
-MBN_ROOT      = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA
+TARGET_ROOT   = /home/david/workspace/firmware 
+BUILD_ROOT    = /home/david/workspace/firmware/trustzone_images 
+BUILD_MS_ROOT = /home/david/workspace/firmware/trustzone_images/build/ms 
+MBN_ROOT      = /home/david/workspace/firmware/trustzone_images/build/ms/bin/KAJAANAA
 BUILD_ID      = KAJAANAA
 BUILD_VER     = 40000000
 BUILD_ASIC    = 660
@@ -181,16 +81,17 @@ CHIPSET       = sdm660
 TARGET_FAMILY = honeybadger
 HAL_PLATFORM  = 660
  
-COMMAND_LINE_TARGETS are ['secure_ui_sample']
-BUILD_TARGETS are        ['secure_ui_sample']
+COMMAND_LINE_TARGETS are ['devcfg']
+BUILD_TARGETS are        ['devcfg']
 
-** INFO: Found 56 CPUs, running with -j 8
+** INFO: Found 4 CPUs, running with -j 8
 
 
 ------------------------------------------------------------------------------
    Loading APPS build system
 ------------------------------------------------------------------------------
-!#!# Command line targets = ['secure_ui_sample']
+!#!# Command line targets = ['devcfg']
+DEVCFG A53_64         BUILD_ID=KAJAANAAA, TOOL_ENV=linux
 ** INFO: Begin Target Config: KAJAANAAA
 ** INFO: Target configuration file: target.builds
 ** INFO: End Target Config: KAJAANAAA
@@ -198,805 +99,49 @@ BUILD_TARGETS are        ['secure_ui_sample']
 !! WARNING: XPU not implemented... using stubs.
 !! WARNING: HYP target not implemented... using stubs.
 !! WARNING: SMEM type uses default header.
+sagenconfig tool not found /prj/qct/asw/qctss/linux/bin/SAGenConfig.pl
 ** INFO: LLVMBIN   = /pkg/qct/software/llvm/release/arm/3.7.6/bin
-** INFO: LLVMBIN          = /pkg/qct/software/llvm/release/arm/3.7.6/bin
-** INFO: LLVMLIB          = /pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6/lib/linux
-** INFO: LLVMINC          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64/include
-** INFO: LLVM32INC          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32/include
-** INFO: LLVMTOOLPATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/bin
-** INFO: GNULIBC          = 
-** INFO: GNUTOOL          = 
-** INFO: GNUROOT          = /pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07
-** INFO: GNUARM7          = /prj/llvm-arm/home/common/build_tools/gcc-linaro-arm-linux-gnueabihf-4.8-2014.02_linux
-** INFO: MUSLPATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64
-** INFO: MUSL32PATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32
-** INFO: Secure UI sample will be compiled with test support enabled
-Generating module metadata file /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/metadata.c
-** INFO: Loading CORE scripts...
-!! WARNING: VMIDMT not implemented... using stubs.
-!! WARNING: XPU not implemented... using stubs.
-!! WARNING: HYP target not implemented... using stubs.
-!! WARNING: SMEM type uses default header.
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/buses/qup_accesscontrol/honeybadger/build/SConscript]
-** INFO: MPROC processor name: apps
-devcfg_img scorpion   BUILD_ID=KAJAANAAA, TOOL_ENV=linux
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/biometric/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [APPS_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/services/build/SConscript]
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/tee_se_api/build/SConscript]
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/tee_se_utils/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [SECUREMSM_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsee/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [CORE_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsee/mink/build/SConscript]
-** INFO: Loaded CORE scripts, elapsed time 1.954 sec.
-** INFO: Loading APPS scripts...
-** INFO: Loaded APPS scripts, elapsed time 0.013 sec.
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/Sectools_Builder_tzapps_log.txt
-** INFO: Begin Target Config: KAJAANAAA
-** INFO: Target configuration file: target.builds
-** INFO: End Target Config: KAJAANAAA
-!! WARNING: VMIDMT not implemented... using stubs.
-!! WARNING: XPU not implemented... using stubs.
-!! WARNING: HYP target not implemented... using stubs.
-!! WARNING: SMEM type uses default header.
-** INFO: LLVMBIN   = /pkg/qct/software/llvm/release/arm/3.7.6/bin
-** INFO: LLVMBIN          = /pkg/qct/software/llvm/release/arm/3.7.6/bin
-** INFO: LLVMLIB          = /pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6/lib/linux
-** INFO: LLVMINC          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64/include
-** INFO: LLVM32INC          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32/include
-** INFO: LLVMTOOLPATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/bin
-** INFO: GNULIBC          = 
-** INFO: GNUTOOL          = 
-** INFO: GNUROOT          = /pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07
-** INFO: GNUARM7          = /prj/llvm-arm/home/common/build_tools/gcc-linaro-arm-linux-gnueabihf-4.8-2014.02_linux
-** INFO: MUSLPATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64
-** INFO: MUSL32PATH          = /pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32
-** INFO: Secure UI sample will be compiled with test support enabled
-Generating module metadata file /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/metadata.c
-** INFO: Loading CORE scripts...
-!! WARNING: VMIDMT not implemented... using stubs.
-!! WARNING: XPU not implemented... using stubs.
-!! WARNING: HYP target not implemented... using stubs.
-!! WARNING: SMEM type uses default header.
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/buses/qup_accesscontrol/honeybadger/build/SConscript]
-** INFO: MPROC processor name: apps
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/biometric/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [APPS_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/services/build/SConscript]
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/tee_se_api/build/SConscript]
-!! WARNING: Invalid environment context for PublishPublicApi 
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsapps/libs/tee_se_utils/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [SECUREMSM_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsee/build/SConscript]
-!! WARNING: No matching APIs found with API prefix [CORE_], will default to using CORE_ prefix. This loopwhole will be closed 8/1/2010.
-   called from [/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/trustzone/qsee/mink/build/SConscript]
-** INFO: Loaded CORE scripts, elapsed time 1.642 sec.
-** INFO: Loading APPS scripts...
-** INFO: Loaded APPS scripts, elapsed time 0.013 sec.
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/Sectools_Builder_tzapps_log.txt
-
-
-------------------------------------------------------------------------------
-   Loading Bootloaders build system
-------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------
-   Loading Bootloaders build system
-------------------------------------------------------------------------------
-
-
-------------------------------------------------------------------------------
-COMMAND_LINE_TARGETS are ['secure_ui_sample']
-BUILD_TARGETS are        ['secure_ui_sample', 'secure_ui_sample64']
-
-
-==============================================================================
-DeployBuilder: NukeDeployTree /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/deploy_KAJAANAA does not exist
-scons: done reading SConscript files.
-scons: Building targets ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/app_main.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/secure_ui_apis_sample.c ...
-/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/securemsm/trustzone/qsapps/secure_ui_sample/src/app_main.c:106:3: warning: implicit declaration of function 'secure_memset' is invalid in C99 [-Wimplicit-function-declaration]
-  secure_memset(rsp, 0, rsplen);
-  ^
-1 warning generated.
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/tui_dialogs_sample.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__cos.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__fpclassify.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__fpclassifyl.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__rem_pio2.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__rem_pio2_large.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__sin.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__stdio_close.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__stdio_seek.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/__stdio_write.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/abort.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/abs.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/atan.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/atan2.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/cos.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/fflush.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/floor.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/fputs.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/fwrite.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/isdigit.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/labs.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/scalbn.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/sin.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/sqrt.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/stderr.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/layout_1440x2560.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/test_support.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/metadata.c ...
- === Preprocess secureapp.ld ==> /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/secure_ui_sample_scl.pp ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/atmel_mxt_ts.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/synaptics_ts.c ...
- === Generating  secure_ui_sample/scorpion/KAJAANAA/secure_ui_sample.scl...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/focaltech_ts.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/loopback_ts.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/atmel_mxt_ts_i2c.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/synaptics_ts_i2c.c ...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/SecureTouch/controller/build/secure_ui_sample/scorpion/KAJAANAA/drts_controller_sdm660.lib ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/focaltech_ts_i2c.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/01_open.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/02_close.c ...
- === Compiling  secure_ui_sample/scorpion/KAJAANAA/03_getData.c ...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/qsee/SecureTouch/drTs/controller/build/secure_ui_sample/scorpion/KAJAANAA/touch_controller_i2c_sdm660.lib ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/app_main.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/secure_ui_apis_sample.c ...
-/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/securemsm/trustzone/qsapps/secure_ui_sample/src/app_main.c:106:3: warning: implicit declaration of function 'secure_memset' is invalid in C99 [-Wimplicit-function-declaration]
-  secure_memset(rsp, 0, rsplen);
-  ^
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/tui_dialogs_sample.c ...
-1 warning generated.
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__cos.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__fpclassify.c ...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/qsee/SecureTouch/drTs/lib/build/secure_ui_sample/scorpion/KAJAANAA/touch_lib.lib ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__fpclassifyl.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__rem_pio2.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__rem_pio2_large.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__sin.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__stdio_close.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__stdio_seek.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/__stdio_write.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/abort.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/abs.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/atan.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/atan2.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/cos.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/fflush.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/floor.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/fputs.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/fwrite.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/isdigit.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/labs.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/scalbn.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/sin.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/sqrt.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/stderr.c ...
- === Linking    /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/secure_ui_sample.elf ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/extenddftf2.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/layout_1440x2560.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/test_support.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/metadata.c ...
- === Preprocess secureapp64.ld ==> /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/secure_ui_sample64_scl.pp ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/atmel_mxt_ts.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/synaptics_ts.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/focaltech_ts.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/loopback_ts.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/atmel_mxt_ts_i2c.c ...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/SecureTouch/controller/build/secure_ui_sample64/A53_64/KAJAANAA/drts_controller_sdm660.lib ...
- Install file: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/secure_ui_sample.elf" as "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/secure_ui_sample.pbn"...
- === Generating  secure_ui_sample64/A53_64/KAJAANAA/secure_ui_sample64.scl...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/synaptics_ts_i2c.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/focaltech_ts_i2c.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/01_open.c ...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/qsee/SecureTouch/drTs/controller/build/secure_ui_sample64/A53_64/KAJAANAA/touch_controller_i2c_sdm660.lib ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/02_close.c ...
- === Compiling  secure_ui_sample64/A53_64/KAJAANAA/03_getData.c ...
- === Generating  secure_ui_sample/scorpion/KAJAANAA/secure_ui_sample.mbn...
- === Archiving  /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/core/securemsm/sse/qsee/SecureTouch/drTs/lib/build/secure_ui_sample64/A53_64/KAJAANAA/touch_lib.lib ...
- Install file: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/secure_ui_sample.mbn" as "bin/KAJAANAA/unsigned/secure_ui_sample.mbn"...
- === Generating  secure_ui_sample/scorpion/KAJAANAA/secure_ui_sample.mbn...
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/SecImage_log.txt
-
-
-    SecImage launched as: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/sectools.py secimage -i /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn -g tzapps -c /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml --cfg_app_id 0x19740670d6c03a1d --cfg_soc_hw_version 0x30060000 --cfg_in_use_soc_hw_version 1 --cfg_soc_vers 0x3007 -sa -o /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign"
-
-Config path is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml
-[33mWARNING: OEM ID is set to 0 for sign_id "tzapps"[39m
-Output dir is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign
-Openssl v1.0.1 or greater is available at: "/usr/bin/openssl"
-------------------------------------------------------
-Processing 1/1: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn
-
-l1_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
-l2_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
-l3_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Performing OEM sign on image: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn
-attestation_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
-ca_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
-openssl_configfile = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
-Using SHA (sha256) for hash segment
-Using PSS RSA padding
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined Root private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.key
-Using a predefined Root certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined CA private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.key
-Using a predefined CA certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Generating new certificate Attest
-Generating new Attestation certificate and a random key
-Generating new private/public key pair for Attest
-Creating certificate request for Attest
-Signing certificate request for Attest
-Creating signature
-
-Attestation Certificate Properties:
-| SW_ID                  | 0x000000000000000C  |
-| HW_ID                  | 0x3006000000000000  |
-| IN_USE_SOC_HW_VERSION  | 0x0001              |
-| SOC_VERS               | 0x3007              |
-| DEBUG                  | 0x0000000000000002  |
-| OEM_ID                 | 0x0000              |
-| SW_SIZE                | 296                 |
-| MODEL_ID               | 0x0000              |
-| SHA_ALGO               | SHA256              |
-| APP_ID                 | 0x19740670D6C03A1D  |
-| CRASH_DUMP             | None                |
-| ROT_EN                 | None                |
-| Exponent               | 65537               |
-| TCG_MIN                | None                |
-| TCG_MAX                | None                |
-
-Signed image is stored at /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/default/tzapps/secure_ui_sample.mbn
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-OEM signed image with RSAPSS
- === Linking    /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/secure_ui_sample64.elf ...
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/default/tzapps/secure_ui_sample.mbn signature is valid
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/default/tzapps/secure_ui_sample.mbn is not encrypted
-
-Base Properties:
-| Integrity Check                 | True  |
-| Signed                          | True  |
-| Encrypted                       | False |
-| Size of signature               | 256   |
-| Size of one cert                | 2048  |
-| Num of certs in cert chain      | 3     |
-| Number of root certs            | 1     |
-| Maximum number of root certs    | 1     |
-| Hash Page Segments as segments  | False |
-| Cert chain size                 | 6144  |
-
-ELF Properties:
-Elf Header:
-| Magic                      | ELF                           |
-| Class                      | ELF32                          |
-| Data                       | 2's complement, little endian  |
-| Version                    | 1 (Current)                    |
-| OS/ABI                     | No extensions or unspecified   |
-| ABI Version                | 0                              |
-| Type                       | DYN (Shared object file)       |
-| Machine                    | Advanced RISC Machines ARM     |
-| Version                    | 0x1                            |
-| Entry address              | 0x00000000                     |
-| Program headers offset     | 0x00000034                     |
-| Section headers offset     | 0x00000000                     |
-| Flags                      | 0x05000000                     |
-| ELF header size            | 52                             |
-| Program headers size       | 32                             |
-| Number of program headers  | 6                              |
-| Section headers size       | 40                             |
-| Number of section headers  | 0                              |
-| String table section index | 0                              |
-
-Elf Program Headers:
-| S.No |   Type  | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags | Align |
-|------|---------|--------|----------|----------|----------|---------|-------|-------|
-|  1   |   LOAD  |0x003000| 0x000000 | 0x000000 | 0x03cce9 | 0x03cce9|  0x5  | 0x4   |
-|  2   |   LOAD  |0x03fcf0| 0x03d000 | 0x03d000 | 0x18fb1c | 0x2a1b1c|  0x6  | 0x4   |
-|  3   |   LOAD  |0x1cff00| 0x2df000 | 0x2df000 | 0x0003b8 | 0x0003b8|  0x6  | 0x4   |
-|  4   |   LOAD  |0x1d0f00| 0x2e0000 | 0x2e0000 | 0x000088 | 0x000088|  0x6  | 0x4   |
-|  5   | DYNAMIC |0x1d0f00| 0x2e0000 | 0x2e0000 | 0x000088 | 0x000088|  0x6  | 0x4   |
-|  6   |   LOAD  |0x1d1f00| 0x2e1000 | 0x2e1000 | 0x002488 | 0x002488|  0x4  | 0x4   |
-
-Hash Segment Properties:
-| Header Size     | 40B     |
-| Hash Algorithm  | sha256  |
-
-Header:
-| cert_chain_ptr       | 0xffffffff  |
-| cert_chain_size      | 0x00001800  |
-| cert_chain_size_qti  | 0x00000000  |
-| code_size            | 0x00000100  |
-| image_id             | 0x00000004  |
-| image_size           | 0x00001a00  |
-| sig_ptr              | 0xffffffff  |
-| sig_size             | 0x00000100  |
-| sig_size_qti         | 0x00000000  |
-| version              | 0x00000005  |
-
-SecElf Properties:
-| image_type        | 0     |
-| max_elf_segments  | 100   |
-| testsig_serialnum | None  |
-
-------------------------------------------------------
-
-SUMMARY:
-Following actions were performed: "sign, validate"
-Output is saved at: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign
-
-| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
-|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
-|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
-|  1. | tzapps |   T   |     NA    |  T   |    NA   |   T   |     T     |  T   |    F    |
-
- Install file: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/secure_ui_sample64.elf" as "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/secure_ui_sample64.pbn"...
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/default/tzapps/secure_ui_sample.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed/secure_ui_sample.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed/secure_ui_sample.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/signed"
- === Generating  secure_ui_sample64/A53_64/KAJAANAA/secure_ui_sample64.mbn...
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign/default/tzapps/secure_ui_sample.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/secure_ui_sample.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/secure_ui_sample.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA"
- Install file: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/secure_ui_sample64.mbn" as "bin/KAJAANAA/unsigned/secure_ui_sample64.mbn"...
- === Generating  secure_ui_sample64/A53_64/KAJAANAA/secure_ui_sample64.mbn...
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt/SecImage_log.txt
-
-
-    SecImage launched as: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/sectools.py secimage -i /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn -g tzapps -c /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml --cfg_app_id 0x19740670d6c03a1d --cfg_soc_hw_version 0x30060000 --cfg_in_use_soc_hw_version 1 --cfg_soc_vers 0x3007 -sea -o /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt"
-
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/SecImage_log.txt
-
-
-    SecImage launched as: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/sectools.py secimage -i /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn -g tzapps -c /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml --cfg_app_id 0xb342b12db1a55298 --cfg_soc_hw_version 0x30060000 --cfg_in_use_soc_hw_version 1 --cfg_soc_vers 0x3007 -sa -o /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign"
-
-Config path is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml
-[33mWARNING: OEM ID is set to 0 for sign_id "tzapps"[39m
-Output dir is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt
-Openssl v1.0.1 or greater is available at: "/usr/bin/openssl"
-------------------------------------------------------
-Processing 1/1: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn
-
-l1_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
-l2_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
-l3_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Performing OEM sign on image: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample.mbn
-attestation_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
-ca_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
-openssl_configfile = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
-Config path is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml
-[33mWARNING: OEM ID is set to 0 for sign_id "tzapps"[39m
-Output dir is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign
-Using SHA (sha256) for hash segment
-Using PSS RSA padding
-Openssl v1.0.1 or greater is available at: "/usr/bin/openssl"
-------------------------------------------------------
-Processing 1/1: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn
-
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined Root private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.key
-l1_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
-l2_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
-l3_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Using a predefined Root certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined CA private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.key
-Using a predefined CA certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Generating new certificate Attest
-Generating new Attestation certificate and a random key
-Generating new private/public key pair for Attest
-Performing OEM sign on image: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn
-attestation_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
-ca_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
-openssl_configfile = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
-Using SHA (sha256) for hash segment
-Using PSS RSA padding
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined Root private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.key
-Using a predefined Root certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined CA private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.key
-Using a predefined CA certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Generating new certificate Attest
-Generating new Attestation certificate and a random key
-Generating new private/public key pair for Attest
-Creating certificate request for Attest
-Signing certificate request for Attest
-Creating signature
-
-Attestation Certificate Properties:
-| SW_ID                  | 0x000000000000000C  |
-| HW_ID                  | 0x3006000000000000  |
-| IN_USE_SOC_HW_VERSION  | 0x0001              |
-| SOC_VERS               | 0x3007              |
-| DEBUG                  | 0x0000000000000002  |
-| OEM_ID                 | 0x0000              |
-| SW_SIZE                | 296                 |
-| MODEL_ID               | 0x0000              |
-| SHA_ALGO               | SHA256              |
-| APP_ID                 | 0xB342B12DB1A55298  |
-| CRASH_DUMP             | None                |
-| ROT_EN                 | None                |
-| Exponent               | 65537               |
-| TCG_MIN                | None                |
-| TCG_MAX                | None                |
-
-Signed image is stored at /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/default/tzapps/secure_ui_sample64.mbn
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Creating certificate request for Attest
-Signing certificate request for Attest
-OEM signed image with RSAPSS
-Creating signature
-
-Attestation Certificate Properties:
-| SW_ID                  | 0x000000000000000C  |
-| HW_ID                  | 0x3006000000000000  |
-| IN_USE_SOC_HW_VERSION  | 0x0001              |
-| SOC_VERS               | 0x3007              |
-| DEBUG                  | 0x0000000000000002  |
-| OEM_ID                 | 0x0000              |
-| SW_SIZE                | 296                 |
-| MODEL_ID               | 0x0000              |
-| SHA_ALGO               | SHA256              |
-| APP_ID                 | 0x19740670D6C03A1D  |
-| CRASH_DUMP             | None                |
-| ROT_EN                 | None                |
-| Exponent               | 65537               |
-| TCG_MIN                | None                |
-| TCG_MAX                | None                |
-
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/default/tzapps/secure_ui_sample64.mbn signature is valid
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/default/tzapps/secure_ui_sample64.mbn is not encrypted
-
-Base Properties:
-| Integrity Check                 | True  |
-| Signed                          | True  |
-| Encrypted                       | False |
-| Size of signature               | 256   |
-| Size of one cert                | 2048  |
-| Num of certs in cert chain      | 3     |
-| Number of root certs            | 1     |
-| Maximum number of root certs    | 1     |
-| Hash Page Segments as segments  | False |
-| Cert chain size                 | 6144  |
-
-ELF Properties:
-Elf Header:
-| Magic                      | ELF                           |
-| Class                      | ELF64                          |
-| Data                       | 2's complement, little endian  |
-| Version                    | 1 (Current)                    |
-| OS/ABI                     | No extensions or unspecified   |
-| ABI Version                | 0                              |
-| Type                       | DYN (Shared object file)       |
-| Machine                    | 183                            |
-| Version                    | 0x1                            |
-| Entry address              | 0x00000000                     |
-| Program headers offset     | 0x00000040                     |
-| Section headers offset     | 0x00000000                     |
-| Flags                      | 0x00000000                     |
-| ELF header size            | 64                             |
-| Program headers size       | 56                             |
-| Number of program headers  | 6                              |
-| Section headers size       | 64                             |
-| Number of section headers  | 0                              |
-| String table section index | 0                              |
-
-Elf Program Headers:
-| S.No |   Type  | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags | Align |
-|------|---------|--------|----------|----------|----------|---------|-------|-------|
-|  1   |   LOAD  |0x003000| 0x000000 | 0x000000 | 0x049a3d | 0x049a3d|  0x5  | 0x1000|
-|  2   |   LOAD  |0x04d000| 0x04a000 | 0x04a000 | 0x1a0ff8 | 0x2c4ff8|  0x6  | 0x1000|
-|  3   |   LOAD  |0x1ee000| 0x30f000 | 0x30f000 | 0x000760 | 0x000760|  0x6  | 0x1000|
-|  4   |   LOAD  |0x1ef000| 0x310000 | 0x310000 | 0x000110 | 0x000110|  0x6  | 0x1000|
-|  5   | DYNAMIC |0x1ef000| 0x310000 | 0x310000 | 0x000110 | 0x000110|  0x6  | 0x1000|
-|  6   |   LOAD  |0x1f0000| 0x311000 | 0x311000 | 0x007278 | 0x007278|  0x4  | 0x1000|
-
-Hash Segment Properties:
-| Header Size     | 40B     |
-| Hash Algorithm  | sha256  |
-
-Header:
-| cert_chain_ptr       | 0xffffffff  |
-| cert_chain_size      | 0x00001800  |
-| cert_chain_size_qti  | 0x00000000  |
-| code_size            | 0x00000100  |
-| image_id             | 0x00000004  |
-| image_size           | 0x00001a00  |
-| sig_ptr              | 0xffffffff  |
-| sig_size             | 0x00000100  |
-| sig_size_qti         | 0x00000000  |
-| version              | 0x00000005  |
-
-SecElf Properties:
-| image_type        | 0     |
-| max_elf_segments  | 100   |
-| testsig_serialnum | None  |
-
-------------------------------------------------------
-
-SUMMARY:
-Following actions were performed: "sign, validate"
-Output is saved at: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign
-
-| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
-|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
-|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
-|  1. | tzapps |   T   |     NA    |  T   |    NA   |   T   |     T     |  T   |    F    |
-
-Signed & Encrypted image is stored at /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample.mbn
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/default/tzapps/secure_ui_sample64.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed/secure_ui_sample64.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed/secure_ui_sample64.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/signed"
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign/default/tzapps/secure_ui_sample64.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/secure_ui_sample64.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/secure_ui_sample64.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA"
-OEM signed image with RSAPSS
-Logging to /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt/SecImage_log.txt
-
-
-    SecImage launched as: "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/sectools.py secimage -i /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn -g tzapps -c /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml --cfg_app_id 0xb342b12db1a55298 --cfg_soc_hw_version 0x30060000 --cfg_in_use_soc_hw_version 1 --cfg_soc_vers 0x3007 -sea -o /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt"
-
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample.mbn signature is valid
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample.mbn is encrypted
-
-Base Properties:
-| Integrity Check                 | True  |
-| Signed                          | True  |
-| Encrypted                       | True  |
-| Size of signature               | 256   |
-| Size of one cert                | 2048  |
-| Num of certs in cert chain      | 3     |
-| Number of root certs            | 1     |
-| Maximum number of root certs    | 1     |
-| Hash Page Segments as segments  | False |
-| Cert chain size                 | 6144  |
-
-ELF Properties:
-Elf Header:
-| Magic                      | ELF                           |
-| Class                      | ELF32                          |
-| Data                       | 2's complement, little endian  |
-| Version                    | 1 (Current)                    |
-| OS/ABI                     | No extensions or unspecified   |
-| ABI Version                | 0                              |
-| Type                       | DYN (Shared object file)       |
-| Machine                    | Advanced RISC Machines ARM     |
-| Version                    | 0x1                            |
-| Entry address              | 0x00000000                     |
-| Program headers offset     | 0x00000034                     |
-| Section headers offset     | 0x00000000                     |
-| Flags                      | 0x05000000                     |
-| ELF header size            | 52                             |
-| Program headers size       | 32                             |
-| Number of program headers  | 6                              |
-| Section headers size       | 40                             |
-| Number of section headers  | 0                              |
-| String table section index | 0                              |
-
-Elf Program Headers:
-| S.No |   Type  | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags | Align |
-|------|---------|--------|----------|----------|----------|---------|-------|-------|
-|  1   |   LOAD  |0x003000| 0x000000 | 0x000000 | 0x03cce9 | 0x03cce9|  0x5  | 0x4   |
-|  2   |   LOAD  |0x03fcf0| 0x03d000 | 0x03d000 | 0x18fb1c | 0x2a1b1c|  0x6  | 0x4   |
-|  3   |   LOAD  |0x1cff00| 0x2df000 | 0x2df000 | 0x0003b8 | 0x0003b8|  0x6  | 0x4   |
-|  4   |   LOAD  |0x1d0f00| 0x2e0000 | 0x2e0000 | 0x000088 | 0x000088|  0x6  | 0x4   |
-|  5   | DYNAMIC |0x1d0f00| 0x2e0000 | 0x2e0000 | 0x000088 | 0x000088|  0x6  | 0x4   |
-|  6   |   LOAD  |0x1d1f00| 0x2e1000 | 0x2e1000 | 0x002488 | 0x002488|  0x4  | 0x4   |
-
-Hash Segment Properties:
-| Header Size     | 40B     |
-| Hash Algorithm  | sha256  |
-
-Header:
-| cert_chain_ptr       | 0xffffffff  |
-| cert_chain_size      | 0x00001800  |
-| cert_chain_size_qti  | 0x00000000  |
-| code_size            | 0x00000100  |
-| image_id             | 0x00000004  |
-| image_size           | 0x00001a00  |
-| sig_ptr              | 0xffffffff  |
-| sig_size             | 0x00000100  |
-| sig_size_qti         | 0x00000000  |
-| version              | 0x00000005  |
-
-SecElf Properties:
-| image_type        | 0     |
-| max_elf_segments  | 100   |
-| testsig_serialnum | None  |
-
-------------------------------------------------------
-
-SUMMARY:
-Following actions were performed: "sign, encrypt, validate"
-Output is saved at: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt
-
-| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
-|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
-|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
-|  1. | tzapps |   T   |     NA    |  T   |    T    |   T   |     T     |  T   |    T    |
-
-Config path is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/config/integration/secimagev2.xml
-[33mWARNING: OEM ID is set to 0 for sign_id "tzapps"[39m
-Output dir is set to: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt
-Openssl v1.0.1 or greater is available at: "/usr/bin/openssl"
-------------------------------------------------------
-Processing 1/1: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn
-
-l1_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
-l2_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
-l3_file_name = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed_encrypted/secure_ui_sample.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed_encrypted/secure_ui_sample.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/signed_encrypted"
-Performing OEM sign on image: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/unsigned/secure_ui_sample64.mbn
-attestation_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
-ca_certificate_extensions = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
-openssl_configfile = /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
- === Generating  secure_ui_sample/scorpion/KAJAANAA/secure_ui_sample.mdt...
-Using SHA (sha256) for hash segment
-Using PSS RSA padding
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined Root private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.key
-Using a predefined Root certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_rootca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Using a predefined CA private key from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.key
-Using a predefined CA certificate from: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/sectools/resources/data_prov_assets/Signing/Local/qti_presigned_certs-key2048_exp65537_paddingPSS/qpsa_attestca.cer
-Initialization with dataprov. These fields might not be used in final output if overridden
-Generating new certificate Attest
-Generating new Attestation certificate and a random key
-Generating new private/public key pair for Attest
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.mdt
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b00
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b01
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b02
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b03
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b04
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b05
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b06
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample.b07
-Creating certificate request for Attest
-Signing certificate request for Attest
-Creating signature
-
-Attestation Certificate Properties:
-| SW_ID                  | 0x000000000000000C  |
-| HW_ID                  | 0x3006000000000000  |
-| IN_USE_SOC_HW_VERSION  | 0x0001              |
-| SOC_VERS               | 0x3007              |
-| DEBUG                  | 0x0000000000000002  |
-| OEM_ID                 | 0x0000              |
-| SW_SIZE                | 296                 |
-| MODEL_ID               | 0x0000              |
-| SHA_ALGO               | SHA256              |
-| APP_ID                 | 0xB342B12DB1A55298  |
-| CRASH_DUMP             | None                |
-| ROT_EN                 | None                |
-| Exponent               | 65537               |
-| TCG_MIN                | None                |
-| TCG_MAX                | None                |
-
-Signed & Encrypted image is stored at /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample64.mbn
-Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
-OEM signed image with RSAPSS
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample64.mbn signature is valid
-Image /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample64.mbn is encrypted
-
-Base Properties:
-| Integrity Check                 | True  |
-| Signed                          | True  |
-| Encrypted                       | True  |
-| Size of signature               | 256   |
-| Size of one cert                | 2048  |
-| Num of certs in cert chain      | 3     |
-| Number of root certs            | 1     |
-| Maximum number of root certs    | 1     |
-| Hash Page Segments as segments  | False |
-| Cert chain size                 | 6144  |
-
-ELF Properties:
-Elf Header:
-| Magic                      | ELF                           |
-| Class                      | ELF64                          |
-| Data                       | 2's complement, little endian  |
-| Version                    | 1 (Current)                    |
-| OS/ABI                     | No extensions or unspecified   |
-| ABI Version                | 0                              |
-| Type                       | DYN (Shared object file)       |
-| Machine                    | 183                            |
-| Version                    | 0x1                            |
-| Entry address              | 0x00000000                     |
-| Program headers offset     | 0x00000040                     |
-| Section headers offset     | 0x00000000                     |
-| Flags                      | 0x00000000                     |
-| ELF header size            | 64                             |
-| Program headers size       | 56                             |
-| Number of program headers  | 6                              |
-| Section headers size       | 64                             |
-| Number of section headers  | 0                              |
-| String table section index | 0                              |
-
-Elf Program Headers:
-| S.No |   Type  | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags | Align |
-|------|---------|--------|----------|----------|----------|---------|-------|-------|
-|  1   |   LOAD  |0x003000| 0x000000 | 0x000000 | 0x049a3d | 0x049a3d|  0x5  | 0x1000|
-|  2   |   LOAD  |0x04d000| 0x04a000 | 0x04a000 | 0x1a0ff8 | 0x2c4ff8|  0x6  | 0x1000|
-|  3   |   LOAD  |0x1ee000| 0x30f000 | 0x30f000 | 0x000760 | 0x000760|  0x6  | 0x1000|
-|  4   |   LOAD  |0x1ef000| 0x310000 | 0x310000 | 0x000110 | 0x000110|  0x6  | 0x1000|
-|  5   | DYNAMIC |0x1ef000| 0x310000 | 0x310000 | 0x000110 | 0x000110|  0x6  | 0x1000|
-|  6   |   LOAD  |0x1f0000| 0x311000 | 0x311000 | 0x007278 | 0x007278|  0x4  | 0x1000|
-
-Hash Segment Properties:
-| Header Size     | 40B     |
-| Hash Algorithm  | sha256  |
-
-Header:
-| cert_chain_ptr       | 0xffffffff  |
-| cert_chain_size      | 0x00001800  |
-| cert_chain_size_qti  | 0x00000000  |
-| code_size            | 0x00000100  |
-| image_id             | 0x00000004  |
-| image_size           | 0x00001a00  |
-| sig_ptr              | 0xffffffff  |
-| sig_size             | 0x00000100  |
-| sig_size_qti         | 0x00000000  |
-| version              | 0x00000005  |
-
-SecElf Properties:
-| image_type        | 0     |
-| max_elf_segments  | 100   |
-| testsig_serialnum | None  |
-
-------------------------------------------------------
-
-SUMMARY:
-Following actions were performed: "sign, encrypt, validate"
-Output is saved at: /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt
-
-| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
-|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
-|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
-|  1. | tzapps |   T   |     NA    |  T   |    T    |   T   |     T     |  T   |    T    |
-
-Installed "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/apps/bsp/trustzone/qsapps/secure_ui_sample64/build/KAJAANAA/sign_and_encrypt/default/tzapps/secure_ui_sample64.mbn" to "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed_encrypted/secure_ui_sample64.mbn"
-Pilsplitted "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/KAJAANAA/signed_encrypted/secure_ui_sample64.mbn" into directory "/local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/signed_encrypted"
- === Generating  secure_ui_sample64/A53_64/KAJAANAA/secure_ui_sample64.mdt...
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.mdt
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b00
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b01
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b02
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b03
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b04
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b05
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b06
-BIN /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11/trustzone_images/build/ms/bin/PIL_IMAGES/SPLITBINS_KAJAANAA/unsigned/secure_ui_sample64.b07
-scons: done building targets.
-Updating /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11\static_analysis\sa_manifest.txt, appending config data.
-Updating /local/mnt/workspace/CRMBuilds/TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2_20200329_233006/b/HK11\static_analysis\sa_manifest.txt, appending config data.
+RuntimeError: ${LLVMBIN} not found using system environment.:
+  File "/home/david/workspace/firmware/trustzone_images/build/ms/target.scons", line 45:
+    env.Tool('ComSConstruct', toolpath = ['${BUILD_ROOT}/tools/build/scons/build'])
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 1692:
+    tool(self)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Tool/__init__.py", line 180:
+    self.generate(env, *args, **kw)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/build/ComSConstruct.py", line 54:
+    env.LoadImageUnits(env.get('IMAGE_ROOT_DIR_PATTERNS'))
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 222:
+    return self.method(*nargs, **kwargs)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1277:
+    load_sub_scripts(env, dir_patterns, script_name_patterns, "image", clone_env=True)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1531:
+    node.load_scripts(script_list, script_type, clone_env=clone_env)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1576:
+    env.SConscript(script, exports='env')
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Script/SConscript.py", line 551:
+    return _SConscript(self.fs, *files, **subst_kw)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Script/SConscript.py", line 260:
+    exec _file_ in call_stack[-1].globals
+  File "/home/david/workspace/firmware/trustzone_images/core/bsp/devcfg/build/SConscript", line 290:
+    SetupDevCfgBuild(devcfg_env, aliases, 'devcfg')
+  File "/home/david/workspace/firmware/trustzone_images/core/bsp/devcfg/build/SConscript", line 97:
+    env.LoadToolScript('llvm', toolpath = ['${BUILD_SCRIPTS_ROOT}'])
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 222:
+    return self.method(*nargs, **kwargs)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1259:
+    m.generate(env)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/llvm.py", line 177:
+    raise RuntimeError, "${LLVMBIN} not found using system environment."
 
 ==============================================================================
    SCons build summary
 ==============================================================================
 ** Build time...
- Build start  : Mon Mar 30 00:22:12 2020
- Build end    : Mon Mar 30 00:22:24 2020
- Elapsed time : 0:00:12
+ Build start  : Tue Sep 20 13:04:13 2022
+ Build end    : Tue Sep 20 13:04:14 2022
+ Elapsed time : 0:00:01
 #-------------------------------------------------------------------------------
 # BUILD END
 #-------------------------------------------------------------------------------
-Start Time = Mon Mar 30 00:22:12 PDT 2020 - End Time = Mon Mar 30 00:22:24 PDT 2020
-Elapsed Time = 12 seconds
+Start Time = Tue Sep 20 13:04:13 UTC 2022 - End Time = Tue Sep 20 13:04:14 UTC 2022
+Elapsed Time = 1 seconds

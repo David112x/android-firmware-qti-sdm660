@@ -3,7 +3,7 @@
 /* ========================================================================
 FILE: CUST660.ADSP.PRODQ
 
-Copyright (c) 2020 by Qualcomm Technologies, Inc.  All Rights Reserved.
+Copyright (c) 2022 by Qualcomm Technologies, Inc.  All Rights Reserved.
 Qualcomm Technologies Proprietary and Confidential.        
 =========================================================================== */
 

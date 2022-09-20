@@ -1,0 +1,94 @@
+[13:04:23] - fat_creation.py: Specified container location:
+[13:04:23] -                  ./emmc/bin/BTFM.bin
+[13:04:23] - fat_creation.py: Specified partition size: 64
+[13:04:23] - fat_creation.py: Float partition can't be used for fat creation, hence truncating it. New partition size : 64
+[13:04:23] -                  Using fatgen from /home/david/workspace/firmware/common/config/storage/fatgen.py
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatgen.py -f -s 64 -n ./emmc/bin/BTFM.bin --sectorsize 4096
+-c is deprecated for size in sectors. It now specifies the sector size (512, 4096 etc.)
+Using cluster size 16384 bytes
+Generated 64MB FAT16 container: ./emmc/bin/BTFM.bin
+[13:04:23] - fat_creation.py: Adding files into fat container:
+[13:04:23] -                  ./emmc/bin/BTFM.bin
+[13:04:23] - fat_creation.py: Found 10 files
+[13:04:23] - Files found with 'sub_dir' attributes
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw10.tlv
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw10.tlv -d image --sectorsize 4096
+Container size is 67108864 bytes
+adding IMAGE
+Added IMAGE
+adding APBTFW10.TLV
+Added APBTFW10.TLV
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw10.tlv: 126976 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw11.tlv
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw11.tlv -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding APBTFW11.TLV
+Added APBTFW11.TLV
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apbtfw11.tlv: 339968 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv10.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv10.bin -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding APNV10.BIN
+Added APNV10.BIN
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv10.bin: 356352 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv11.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv11.bin -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding APNV11.BIN
+Added APNV11.BIN
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/apnv11.bin: 372736 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw11.tlv
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw11.tlv -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRBTFW11.TLV
+Added CRBTFW11.TLV
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw11.tlv: 405504 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw20.tlv
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw20.tlv -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRBTFW20.TLV
+Added CRBTFW20.TLV
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw20.tlv: 471040 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw21.tlv
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw21.tlv -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRBTFW21.TLV
+Added CRBTFW21.TLV
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crbtfw21.tlv: 684032 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv11.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv11.bin -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRNV11.BIN
+Added CRNV11.BIN
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv11.bin: 700416 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv20.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv20.bin -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRNV20.BIN
+Added CRNV20.BIN
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/crnv20.bin: 716800 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/disable_44p1khz/crnv21.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./emmc/bin/BTFM.bin -f /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/disable_44p1khz/crnv21.bin -d image --sectorsize 4096
+Container size is 67108864 bytes
+Added IMAGE
+adding CRNV21.BIN
+Added CRNV21.BIN
+[13:04:23] - ./emmc/bin/BTFM.bin size after adding   /home/david/workspace/firmware/btfm_proc/bt/build/ms/bin/WCN3990/disable_44p1khz/crnv21.bin: 733184 bytes
+[13:04:23] - ./emmc/bin/BTFM.bin last modified time stamp   : Tue Sep 20 13:04:23 2022

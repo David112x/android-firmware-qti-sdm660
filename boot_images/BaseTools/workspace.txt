@@ -1,1 +1,1 @@
-/mnt/workspace/test/test-6786567c99ebd2f3360c32c104d001ce6a998a4d-6786567c99ebd2f3360c32c104d001ce6a998a4d/boot_images
+/home/david/workspace/firmware/boot_images

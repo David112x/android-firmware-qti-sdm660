@@ -1,0 +1,130 @@
+#!/usr/bin/perl
+
+use strict;
+
+my $base_path = $ENV{'PWD'};
+my $out = "$base_path/out";
+my $outdump = "$base_path/outdump";
+my $user_name = $ENV{'USER'};
+my $user_home = $ENV{'HOME'};
+
+
+
+if(-d $out)
+{
+    system("rm -rf $out");
+}
+system("mkdir -p $out");
+
+if(-d $outdump)
+{
+    system("rm -rf $outdump");
+}
+system("mkdir -p $outdump");
+
+chdir("$base_path/common/build");
+system("python build.py --hlos");
+chdir($base_path);
+print("Split finished!!!\n");
+
+#xbl.elf
+system("cp $base_path/boot_images/QcomPkg/Sdm660Pkg/Bin/660/LA/RELEASE/xbl.elf $out");
+#pmic.elf
+system("cp $base_path/boot_images/QcomPkg/Sdm660Pkg/Bin/660/LA/RELEASE/pmic.elf $out");
+#tz.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/tz.mbn $out");
+#hyp.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/hyp.mbn $out");
+#cmnlib.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/cmnlib.mbn $out");
+#cmnlib64.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/cmnlib64.mbn $out");
+#km4.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/km4.mbn $out");
+#dspso.bin
+system("cp $base_path/common/build/bin/asic/dspso.bin $out");
+#rpm.mbn
+system("cp $base_path/rpm_proc/build/ms/bin/AAAAANAZR/rpm.mbn $out");
+#NON-HLOS.bin
+system("cp $base_path/common/build/emmc/bin/asic/NON-HLOS.bin $out");
+#sec.dat
+system("cp $base_path/common/sectools/resources/build/fileversion2/sec.dat $out");
+#BTFM.bin
+system("cp $base_path/common/build/emmc/bin/BTFM.bin $out");
+#devcfg.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/devcfg.mbn $out");
+#storsec.mbn
+system("cp $base_path/trustzone_images/build/ms/bin/KAJAANAA/storsec.mbn $out");
+#gpt_main0.bin
+system("cp $base_path/common/build/emmc/gpt_main0.bin $out");
+#gpt_backup0.bin
+system("cp $base_path/common/build/emmc/gpt_backup0.bin $out");
+#patch0.xml
+system("cp $base_path/common/build/emmc/patch0.xml $out");
+#prog_firehose_ddr.elf
+system("cp $base_path/boot_images/QcomPkg/Sdm660Pkg/Bin/660/LA/RELEASE/prog_emmc_ufs_firehose_Sdm660_ddr.elf $out");
+#rawprogram_unsparse.xml
+#system("cp $base_path/common/build/emmc/bin/asic/sparse_images/rawprogram_unsparse.xml $out");
+
+#huangshaopeng@wind-mobi.com 20170911 begin
+#adspso.bin  
+#system("cp $base_path/ADSP.8953.2.8.2/adsp_proc/build/dynamic_signed/8937/adspso.bin $out");
+
+#cmnlib.mbn  cmnlib64.mbn  devcfg.mbn  keymaster.mbn  lksecapp.mbn
+#my @tz_list = ("cmnlib.mbn", "cmnlib64.mbn", "devcfg.mbn", "keymaster.mbn");
+#foreach (@tz_list)
+#{
+#   system("cp $base_path/TZ.BF.4.0.5/trustzone_images/build/ms/bin/ZALAANAA/$_ $out");
+#}
+#huangshaopeng@wind-mobi.com 20170911 end
+
+
+#gpt_backup0.bin gpt_both0.bin gpt_main0.bin patch0.xml
+my @gpt_list = ("gpt_backup0.bin", "gpt_both0.bin", "gpt_main0.bin", "patch0.xml");
+foreach (@gpt_list)
+{
+    system("cp $base_path/common/build/emmc/$_ $out");
+}
+#emmc_appsboot.mbn boot.img recovery.img mdtp.img
+# fs_image.tar.gz 
+my @ap_list = ("userdata.img", "boot.img", "recovery.img","dtbo.img",  "vbmeta.img","vbmeta_system.img");
+my $username =  $ENV{'USER'};
+
+foreach (@ap_list)
+{
+    #system("cp $base_path/../out/target/product/sdm710/$_ $out");
+    system("cp $base_path/LINUX/android/out/target/product/sdm660_64/obj/PACKAGING/target_files_intermediates/sdm660_64-target_files-eng.${username}/IMAGES/$_ $out"); 
+}
+my @ap_list = ( "mdtp.img", "splash.img","persist.img","abl.elf", "metadata.img");
+foreach (@ap_list)
+{
+    #system("cp $base_path/../out/target/product/sdm710/$_ $out");
+    system("cp $base_path/LINUX/android/out/target/product/sdm660_64/$_ $out"); 
+}
+
+#split img
+system("cp $base_path/common/build/emmc/bin/asic/sparse_images/* $out");
+system("cp $base_path/common/build/emmc/rawprogram0.xml $out");
+
+=pod
+=cut
+my ($sec, $min, $hour, $day, $month, $year, $a, $b, $c) = localtime(time);
+my $zip_name = sprintf("FlashPackage_QFIL_%d%02d%02d_%02d%02d%02d.7z", $year+1900, $month+1, $day, $hour, $min, $sec);
+print "$zip_name\n";
+
+chdir("$base_path/out");
+#system("cp rawprogram0.xml rawprogram_unsparse.xml");
+
+
+if(-d "$user_home/660_image_Q")
+{
+   print "$user_home/660_image_Q is exsist"
+}
+else
+{
+   system("mkdir -p $user_home/660_image_Q");
+}
+
+chdir("$base_path/out");
+system("7zr a -t7z $zip_name ./*");
+system("cp $zip_name  $user_home/660_image_Q/");

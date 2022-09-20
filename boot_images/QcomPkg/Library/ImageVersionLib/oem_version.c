@@ -11,8 +11,8 @@
 #                                                                            
 # *** AUTO GENERATED FILE - DO NOT EDIT                                      
 #                                                                            
-# GENERATED: Mon Apr 18 01:50:34 2022 
+# GENERATED: Tue Sep 20 13:04:00 2022 
 #============================================================================
 */
 const char IMAGE_VARIANT_STRING_AUTO_UPDATED[]="IMAGE_VARIANT_STRING=Sdm660LA";
-const char OEM_IMAGE_VERSION_STRING_AUTO_UPDATED[]="OEM_IMAGE_VERSION_STRING=instance-1";
+const char OEM_IMAGE_VERSION_STRING_AUTO_UPDATED[]="OEM_IMAGE_VERSION_STRING=Ubuntu";

@@ -1,0 +1,24 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.VT.4.1.c1-00009-SDM660-1", 
+        "apps": "LA.UM.8.2.1.r1-04200-sdm660.0-1", 
+        "boot": "BOOT.XF.1.4-00280-S660LZB-1", 
+        "btfm": "BTFM.CHE.2.1.5.c5-00007-QCACHROMZ-1", 
+        "cdsp": "CDSP.VT.1.1.c1-00005-SDM660-1", 
+        "common": "SDM660.LA.3.0.2-00008-STD.PROD-1", 
+        "cpev2": "CPE.TSF.2.0-00006-W9335AAAAAAAZQ-1", 
+        "glue": "GLUE.SDM660_LA.3.0.6-00004-NOOP_TEST-1", 
+        "modem": "MPSS.AT.3.1.c27-00007-SDM660_GEN_PACK-1", 
+        "rpm": "RPM.BF.1.8-00067-SDM660AAAAANAZR-1", 
+        "tz": "TZ.BF.4.0.7.1-00006-S660AAAAANAZT-2", 
+        "video": "VIDEO.VE.4.4-00066-PROD-1", 
+        "wdsp": "WDSP.9340.1.0.c1-00008-W9340AAAAAAAZQ-1", 
+        "wlan": "WLAN.HL.3.3.5-00149-QCAHLSWMTPLZ-1"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "SDM660.LA.3.0.2-00008-STD.PROD-1", 
+        "Product_Flavor": "['asic']", 
+        "Time_Stamp": "2022-09-20 13:04:26"
+    }, 
+    "Version": "1.0"
+}

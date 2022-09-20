@@ -1,0 +1,137 @@
+Start Time = Tue Sep 20 13:04:16 UTC 2022
+#-------------------------------------------------------------------------------
+# ENVIRONMENT BEGIN
+#-------------------------------------------------------------------------------
+declare -x BUILD_ACT="clean"
+declare -x BUILD_ASIC="660"
+declare -x BUILD_COMPONENT=""
+declare -x BUILD_FILTER=""
+declare -x BUILD_FLAGS="ADSP,ADSP"
+declare -x BUILD_FLAVOR="mpd"
+declare -x BUILD_ID="660.adsp.prod"
+declare -x BUILD_NUMCORE=""
+declare -x BUILD_SCONSARGS=""
+declare -x BUILD_USERARGS=""
+declare -x BUILD_VER="0002"
+declare -x BUILD_VERBOSE="1"
+declare -x CHIPSET="sdm660"
+declare -x COLUMNS="188"
+declare -x COMPILER="llvm"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+declare -x HAL_PLATFORM="660"
+declare -x HEXAGON_Q6VERSION="v62"
+declare -x HEXAGON_REQD_Q6VERSION="v62"
+declare -x HEXAGON_ROOT="None"
+declare -x HEXAGON_RTOS_RELEASE="8.0.09"
+declare -x HOME="/home/david"
+declare -x IMAGE="adsp"
+declare -x LANG="C.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LINES="51"
+declare -x LOGNAME="david"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MAIL="/var/mail/david"
+declare -x MSM_ID="660"
+declare -x OLDPWD="/home/david/workspace/firmware/adsp_proc"
+declare -x OS_ENV_ENGG_TIME_STAMP="Q6_BUILD_TS_Tue_Sep_20_13:04:16_PST_2022"
+declare -x OS_ENV_QCOM_TIME_STAMP="Q6_BUILD_TS_Tue_Mar_17_23:52:44_PST_2020_ADSP.VT.4.1.c1-00009-SDM660"
+declare -x PATH="/pkg/python/2.7.5/bin:None/Tools/bin:None/Tools/lib/iss:None/Tools/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:"
+declare -x PRODUCT_LINE="ADSP.VT.4.1.c1"
+declare -x PWD="/home/david/workspace/firmware/adsp_proc/build/ms"
+declare -x PYTHON_ROOT="/pkg/python/2.7.5/bin"
+declare -x Q6VERSION="v62"
+declare -x Q6_ROOT="None"
+declare -x Q6_TOOLS_ROOT="None"
+declare -x QDSP6_BUILD_VERSION="SDM660_0x8fffffff"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="4"
+declare -x SSH_CLIENT="186.116.66.170 49648 22"
+declare -x SSH_CONNECTION="186.116.66.170 49648 10.0.0.4 22"
+declare -x SSH_TTY="/dev/pts/0"
+declare -x TARGET="660"
+declare -x TARGET_FAMILY="660"
+declare -x TERM="xterm-256color"
+declare -x USER="david"
+declare -x VARIANT_NAME="660.adsp.prod"
+declare -x XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/snapd/desktop"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SESSION_ID="1"
+#-------------------------------------------------------------------------------
+# ENVIRONMENT END
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+# BUILD BEGIN
+#-------------------------------------------------------------------------------
+/home/david/workspace/firmware/adsp_proc/tools/build/scons/build/../SCons/scons -f /home/david/workspace/firmware/adsp_proc/tools/build/scons/build/start.scons BUILD_ID=660.adsp.prod BUILD_VER=0002 MSM_ID=660 HAL_PLATFORM=660 TARGET_FAMILY=660 BUILD_ASIC=660 CHIPSET=sdm660 USES_FLAGS=USES_MULTI_PD,ADSP,ADSP sdm660_ADSP BUILD_ID=660.adsp.prod BUILD_VER=1234 PRODUCT_LINE=ADSP.VT.4.1.c1 -j 8 --verbose=1 -c --noanalytic
+scons: Reading SConscript files ...
+------------------------------------------------------------------------------
+   Loading QC-SCons Build System
+------------------------------------------------------------------------------
+
+** INFO: Found 4 CPUs, running with -j 8
+====================================================================
+PLATFORM      = linux 
+PYTHON Ver    = 2.7.17 (default, Jul  1 2022, 15:56:32) 
+[GCC 7.5.0] 
+Python Path   = /usr/bin/python 
+PYTHON cmd    = /usr/bin/python 
+SCONS Ver     = 2.0.0.final.0 
+SCONS QC Ver  = 1.1-00140 (2017/03/06 17:39:26) 
+TARGET_ROOT   = /home/david/workspace/firmware 
+BUILD_ROOT    = /home/david/workspace/firmware/adsp_proc 
+BUILD_MS_ROOT = /home/david/workspace/firmware/adsp_proc/build/ms 
+MBN_ROOT      = /home/david/workspace/firmware/adsp_proc/build/ms/bin/660.adsp.prod
+BUILD_ID      = 660.adsp.prod
+BUILD_VER     = 1234
+BUILD_ASIC    = 660
+MSM_ID        = 660
+CHIPSET       = sdm660
+TARGET_FAMILY = 660
+HAL_PLATFORM  = 660
+ 
+COMMAND_LINE_TARGETS are ['sdm660_ADSP']
+BUILD_TARGETS are        ['sdm660_ADSP']
+====================================================================
+
+
+==============================================================================
+Reading SConscript files...
+
+
+ADSP_LINK qdsp6       BUILD_ID=660.adsp.prodQ, TOOL_ENV=linux
+!! WARNING: Invalid environment context for PublishProtectedApi 
+   called from [/home/david/workspace/firmware/adsp_proc/apr/build/apr.api]
+** INFO: Platform building for: adsp
+** INFO: RCINIT Host name:        Ubuntu
+** INFO: RCINIT Host platform:    linux2
+** INFO: RCINIT Python version:   2.7.17 (default, Jul  1 2022, 15:56:32) 
+[GCC 7.5.0]
+** INFO: RCINIT PyWin32 version:  N/A
+Config file names are ['rcinit_task_prio.csv']
+** INFO: env.FindConfigFiles() returning: /home/david/workspace/firmware/adsp_proc/build/config/default/rcinit_task_prio.csv
+!! WARNING: RCINIT (IMAGE OWNER) ALIAS MAP entry must match naming scheme [A-Z0-9]+_PRI_ORDER COPY_TO_IMAGE_ROOT_BEFORE_MODIFICATION_TO_OVERRIDE_DEFAULTS
+!! WARNING: RCINIT (IMAGE OWNER) ALIAS MAP entry must match naming scheme [A-Z0-9]+_PRI_ORDER SELECT_EXISTING_LEGACY_ALIAS_FOR_USE_AS_DUPLICATE_ENTRY_NOT_SUPPORTED
+** INFO: This adsp core image is being built for Multi PD version
+** INFO: SIM is not in the argument, build qdsp6 for target image
+!! ERROR: 
+!! ERROR: -------------------------------------------------------------------------------
+!! ERROR: *** HEXAGON tools are not present
+!! ERROR: *** Please install HEXAGON tools RTOS 1.1, 2.0Beta, etc.
+!! ERROR: *** Currently setup for RTOS: 8.0.09
+!! ERROR: *** Missing RTOS PATH: /home/david/workspace/firmware/adsp_proc/build/bsp/adsp_link/build/None/8.0.09
+!! ERROR: -------------------------------------------------------------------------------
+!! ERROR: 
+
+==============================================================================
+   SCons build summary
+==============================================================================
+** Build time...
+ Build start  : Tue Sep 20 13:04:16 2022
+ Build end    : Tue Sep 20 13:04:16 2022
+ Elapsed time : 0:00:01
+#-------------------------------------------------------------------------------
+# BUILD END
+#-------------------------------------------------------------------------------
+Start Time = Tue Sep 20 13:04:16 UTC 2022 - End Time = Tue Sep 20 13:04:16 UTC 2022
+Elapsed Time = 0 seconds

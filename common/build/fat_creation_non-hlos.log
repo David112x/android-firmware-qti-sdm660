@@ -1,0 +1,1432 @@
+[13:04:21] - fat_creation.py: Specified container location:
+[13:04:21] -                  ./ufs/bin/asic/NON-HLOS.bin
+[13:04:21] - fat_creation.py: Specified partition size: 110.0
+[13:04:21] - fat_creation.py: Float partition can't be used for fat creation, hence truncating it. New partition size : 110
+[13:04:21] -                  Using fatgen from /home/david/workspace/firmware/common/config/storage/fatgen.py
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatgen.py -f -s 110 -n ./ufs/bin/asic/NON-HLOS.bin --sectorsize 4096
+-c is deprecated for size in sectors. It now specifies the sector size (512, 4096 etc.)
+Using cluster size 16384 bytes
+Generated 110MB FAT16 container: ./ufs/bin/asic/NON-HLOS.bin
+[13:04:21] - fat_creation.py: Adding files into fat container:
+[13:04:21] -                  ./ufs/bin/asic/NON-HLOS.bin
+[13:04:21] - fat_creation.py: Found 176 files
+[13:04:21] - Files found with 'sub_dir' attributes
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+adding IMAGE
+Added IMAGE
+adding CMNLIB.B00
+Added CMNLIB.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b00: 86016 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B01
+Added CMNLIB.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b01: 102400 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B02
+Added CMNLIB.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b02: 315392 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B03
+Added CMNLIB.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b03: 331776 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B04
+Added CMNLIB.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b04: 348160 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B05
+Added CMNLIB.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b05: 364544 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.B06
+Added CMNLIB.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.b06: 380928 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB.MDT
+Added CMNLIB.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib.mdt: 397312 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B00
+Added CMNLIB64.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b00: 413696 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B01
+Added CMNLIB64.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b01: 430080 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B02
+Added CMNLIB64.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b02: 692224 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B03
+Added CMNLIB64.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b03: 708608 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B04
+Added CMNLIB64.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b04: 724992 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B05
+Added CMNLIB64.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b05: 741376 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.B06
+Added CMNLIB64.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.b06: 757760 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CMNLIB64.MDT
+Added CMNLIB64.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cmnlib64.mdt: 774144 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b08
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b08 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B08
+Added CPE_9335.B08
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b08: 790528 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b09
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b09 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B09
+Added CPE_9335.B09
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b09: 823296 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b11
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b11 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B11
+Added CPE_9335.B11
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b11: 839680 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b14
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b14 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B14
+Added CPE_9335.B14
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b14: 856064 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b16
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b16 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B16
+Added CPE_9335.B16
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b16: 872448 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b18
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b18 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B18
+Added CPE_9335.B18
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b18: 888832 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b19
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b19 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B19
+Added CPE_9335.B19
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b19: 905216 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b20
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b20 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B20
+Added CPE_9335.B20
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b20: 921600 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b22
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b22 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B22
+Added CPE_9335.B22
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b22: 937984 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b24
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b24 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B24
+Added CPE_9335.B24
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b24: 954368 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b26
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b26 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B26
+Added CPE_9335.B26
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b26: 970752 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b28
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b28 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B28
+Added CPE_9335.B28
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b28: 987136 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b29
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b29 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.B29
+Added CPE_9335.B29
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.b29: 1052672 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9335.MDT
+Added CPE_9335.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cpe_9335.mdt: 1069056 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B00
+Added CPPF.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b00: 1085440 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B01
+Added CPPF.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b01: 1101824 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B02
+Added CPPF.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b02: 1118208 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B03
+Added CPPF.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b03: 1134592 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B04
+Added CPPF.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b04: 1150976 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B05
+Added CPPF.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b05: 1167360 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B06
+Added CPPF.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b06: 1183744 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.B07
+Added CPPF.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.b07: 1200128 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPPF.MDT
+Added CPPF.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/cppf.mdt: 1216512 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B00
+Added DHSECAPP.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b00: 1232896 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B01
+Added DHSECAPP.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b01: 1249280 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B02
+Added DHSECAPP.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b02: 1363968 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B03
+Added DHSECAPP.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b03: 1396736 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B04
+Added DHSECAPP.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b04: 1413120 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B05
+Added DHSECAPP.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b05: 1429504 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B06
+Added DHSECAPP.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b06: 1445888 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.B07
+Added DHSECAPP.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.b07: 1462272 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DHSECAPP.MDT
+Added DHSECAPP.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/dhsecapp.mdt: 1478656 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B00
+Added GPTEST.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b00: 1495040 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B01
+Added GPTEST.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b01: 1511424 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B02
+Added GPTEST.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b02: 1806336 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B03
+Added GPTEST.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b03: 1871872 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B04
+Added GPTEST.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b04: 1888256 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B05
+Added GPTEST.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b05: 1904640 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B06
+Added GPTEST.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b06: 1921024 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.B07
+Added GPTEST.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.b07: 1937408 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding GPTEST.MDT
+Added GPTEST.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/gptest.mdt: 1953792 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B00
+Added HAVENTKN.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b00: 1970176 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B01
+Added HAVENTKN.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b01: 1986560 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B02
+Added HAVENTKN.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b02: 2101248 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B03
+Added HAVENTKN.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b03: 2150400 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B04
+Added HAVENTKN.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b04: 2166784 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B05
+Added HAVENTKN.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b05: 2183168 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B06
+Added HAVENTKN.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b06: 2199552 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.B07
+Added HAVENTKN.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.b07: 2215936 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding HAVENTKN.MDT
+Added HAVENTKN.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/haventkn.mdt: 2232320 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B00
+Added IRIS.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b00: 2248704 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B01
+Added IRIS.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b01: 2265088 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B02
+Added IRIS.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b02: 5017600 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B03
+Added IRIS.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b03: 5083136 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B04
+Added IRIS.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b04: 5099520 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B05
+Added IRIS.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b05: 5115904 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B06
+Added IRIS.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b06: 5132288 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.B07
+Added IRIS.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.b07: 5148672 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding IRIS.MDT
+Added IRIS.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/iris.mdt: 5165056 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B00
+Added ISDBTMM.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b00: 5181440 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b01
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B01
+Added ISDBTMM.B01
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b01: 5197824 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b02
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B02
+Added ISDBTMM.B02
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b02: 5279744 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b03
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B03
+Added ISDBTMM.B03
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b03: 5312512 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b04
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B04
+Added ISDBTMM.B04
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b04: 5328896 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b05
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B05
+Added ISDBTMM.B05
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b05: 5345280 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b06
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B06
+Added ISDBTMM.B06
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b06: 5361664 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b07
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.B07
+Added ISDBTMM.B07
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.b07: 5378048 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.mdt
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding ISDBTMM.MDT
+Added ISDBTMM.MDT
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/isdbtmm.mdt: 5394432 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:21] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b00
+[13:04:21] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B00
+Added SECUREMM.B00
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b00: 5410816 bytes
+[13:04:21] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:21 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B01
+Added SECUREMM.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b01: 5427200 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B02
+Added SECUREMM.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b02: 5574656 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B03
+Added SECUREMM.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b03: 5623808 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B04
+Added SECUREMM.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b04: 5640192 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B05
+Added SECUREMM.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b05: 5656576 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B06
+Added SECUREMM.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b06: 5672960 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.B07
+Added SECUREMM.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.b07: 5689344 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SECUREMM.MDT
+Added SECUREMM.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/securemm.mdt: 5705728 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b00
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B00
+Added SMPLAP32.B00
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b00: 5722112 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B01
+Added SMPLAP32.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b01: 5738496 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B02
+Added SMPLAP32.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b02: 6000640 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B03
+Added SMPLAP32.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b03: 7294976 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B04
+Added SMPLAP32.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b04: 7311360 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B05
+Added SMPLAP32.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b05: 7327744 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B06
+Added SMPLAP32.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b06: 7344128 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.B07
+Added SMPLAP32.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.b07: 7360512 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP32.MDT
+Added SMPLAP32.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap32.mdt: 7376896 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b00
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B00
+Added SMPLAP64.B00
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b00: 7393280 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B01
+Added SMPLAP64.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b01: 7409664 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B02
+Added SMPLAP64.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b02: 7720960 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B03
+Added SMPLAP64.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b03: 9015296 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B04
+Added SMPLAP64.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b04: 9031680 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B05
+Added SMPLAP64.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b05: 9048064 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B06
+Added SMPLAP64.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b06: 9064448 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.B07
+Added SMPLAP64.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.b07: 9080832 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SMPLAP64.MDT
+Added SMPLAP64.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/smplap64.mdt: 9097216 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b00
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B00
+Added SOTER64.B00
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b00: 9113600 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B01
+Added SOTER64.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b01: 9129984 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B02
+Added SOTER64.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b02: 9261056 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B03
+Added SOTER64.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b03: 9293824 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B04
+Added SOTER64.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b04: 9310208 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B05
+Added SOTER64.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b05: 9326592 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B06
+Added SOTER64.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b06: 9342976 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.B07
+Added SOTER64.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.b07: 9359360 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding SOTER64.MDT
+Added SOTER64.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/soter64.mdt: 9375744 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b00
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.B00
+Added VENUS.B00
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b00: 9392128 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.B01
+Added VENUS.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b01: 9408512 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.B02
+Added VENUS.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b02: 10342400 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.B03
+Added VENUS.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b03: 10375168 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.B04
+Added VENUS.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.b04: 10391552 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding VENUS.MDT
+Added VENUS.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/venus.mdt: 10407936 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b00
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b00 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B00
+Added WIDEVINE.B00
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b00: 10424320 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B01
+Added WIDEVINE.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b01: 10440704 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b02
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b02 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B02
+Added WIDEVINE.B02
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b02: 10801152 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B03
+Added WIDEVINE.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b03: 10850304 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B04
+Added WIDEVINE.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b04: 10866688 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B05
+Added WIDEVINE.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b05: 10883072 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B06
+Added WIDEVINE.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b06: 10899456 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.B07
+Added WIDEVINE.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.b07: 10915840 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WIDEVINE.MDT
+Added WIDEVINE.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/common/build/ufs/bin/asic/pil_split_bins/widevine.mdt: 10932224 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b01
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b01 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B01
+Added CPE_9340.B01
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b01: 10948608 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b03
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b03 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B03
+Added CPE_9340.B03
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b03: 10964992 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b05
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b05 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B05
+Added CPE_9340.B05
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b05: 10981376 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b06
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b06 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B06
+Added CPE_9340.B06
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b06: 10997760 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B07
+Added CPE_9340.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b07: 11014144 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b09
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b09 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B09
+Added CPE_9340.B09
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b09: 11030528 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b11
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b11 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B11
+Added CPE_9340.B11
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b11: 11046912 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b13
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b13 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B13
+Added CPE_9340.B13
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b13: 11063296 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b15
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b15 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B15
+Added CPE_9340.B15
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b15: 11079680 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b16
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b16 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B16
+Added CPE_9340.B16
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b16: 11227136 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b18
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b18 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B18
+Added CPE_9340.B18
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b18: 11341824 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b20
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b20 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.B20
+Added CPE_9340.B20
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.b20: 11374592 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.mdt
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.mdt -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding CPE_9340.MDT
+Added CPE_9340.MDT
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wdsp_proc/build/ms/bin/PIL_IMAGES/cpe_9340.mdt: 11390976 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/build/ms/Data.msc
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/build/ms/Data.msc -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding DATA.MSC
+Added DATA.MSC
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/build/ms/Data.msc: 12013568 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/build/ms/bin/QCAHLAWPDL/signed/wlanmdsp.mbn
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/build/ms/bin/QCAHLAWPDL/signed/wlanmdsp.mbn -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding WLANMDSP.MBN
+Added WLANMDSP.MBN
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/build/ms/bin/QCAHLAWPDL/signed/wlanmdsp.mbn: 15798272 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/build/ms/servreg/QCAHLAWPDLQ/modemuw.jsn
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/build/ms/servreg/QCAHLAWPDLQ/modemuw.jsn -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding MODEMUW.JSN
+Added MODEMUW.JSN
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/build/ms/servreg/QCAHLAWPDLQ/modemuw.jsn: 15814656 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.102
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.102 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.102
+Added BDWLAN.102
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.102: 15847424 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.104
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.104 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.104
+Added BDWLAN.104
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.104: 15880192 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.105
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.105 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.105
+Added BDWLAN.105
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.105: 15912960 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.106
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.106 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.106
+Added BDWLAN.106
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.106: 15945728 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.107
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.107 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.107
+Added BDWLAN.107
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.107: 15978496 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.108
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.108 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.108
+Added BDWLAN.108
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.108: 16011264 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.109
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.109 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.109
+Added BDWLAN.109
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.109: 16044032 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b04
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b04 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B04
+Added BDWLAN.B04
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b04: 16076800 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b07
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b07 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B07
+Added BDWLAN.B07
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b07: 16109568 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b09
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b09 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B09
+Added BDWLAN.B09
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b09: 16142336 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0a
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0a -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B0A
+Added BDWLAN.B0A
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0a: 16175104 bytes
+[13:04:22] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:22 2022
+[13:04:22] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0b
+[13:04:22] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0b -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B0B
+Added BDWLAN.B0B
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0b: 16207872 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0d
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0d -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B0D
+Added BDWLAN.B0D
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0d: 16240640 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0e
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0e -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B0E
+Added BDWLAN.B0E
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0e: 16273408 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0f
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0f -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B0F
+Added BDWLAN.B0F
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b0f: 16306176 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b14
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b14 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B14
+Added BDWLAN.B14
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b14: 16338944 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b30
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b30 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B30
+Added BDWLAN.B30
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b30: 16371712 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b31
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b31 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B31
+Added BDWLAN.B31
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b31: 16404480 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b32
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b32 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B32
+Added BDWLAN.B32
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b32: 16437248 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b33
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b33 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B33
+Added BDWLAN.B33
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b33: 16470016 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b34
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b34 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B34
+Added BDWLAN.B34
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b34: 16502784 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b35
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b35 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B35
+Added BDWLAN.B35
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b35: 16535552 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b36
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b36 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B36
+Added BDWLAN.B36
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b36: 16568320 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b37
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b37 -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.B37
+Added BDWLAN.B37
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.b37: 16601088 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.bin
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.bin -d image --sectorsize 4096
+Container size is 115343360 bytes
+Added IMAGE
+adding BDWLAN.BIN
+Added BDWLAN.BIN
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   /home/david/workspace/firmware/wlan_proc/wlan/halphy_tools/host/bdfUtil/qca61x0/bdf/bdwlan.bin: 16633856 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022
+[13:04:23] - Creating the file Ver_info.txt  to hold the Meta information at ./ufs/bin/asic/Ver_info.txt
+[13:04:23] - fat_creation.py: Adding ver_info.txt into fat container:
+[13:04:23] - Executing: python /home/david/workspace/firmware/common/config/storage/fatadd.py -n ./ufs/bin/asic/NON-HLOS.bin -f ./ufs/bin/asic/Ver_info.txt -d verinfo --sectorsize 4096
+Container size is 115343360 bytes
+adding VERINFO
+Added VERINFO
+adding VER_INFO.TXT
+Added VER_INFO.TXT
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin size after adding   ./ufs/bin/asic/Ver_info.txt: 16666624 bytes
+[13:04:23] - ./ufs/bin/asic/NON-HLOS.bin last modified time stamp   : Tue Sep 20 13:04:23 2022

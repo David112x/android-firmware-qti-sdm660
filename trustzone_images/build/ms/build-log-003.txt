@@ -1,0 +1,151 @@
+Start Time = Tue Sep 20 13:04:06 UTC 2022
+#-------------------------------------------------------------------------------
+# ENVIRONMENT BEGIN
+#-------------------------------------------------------------------------------
+declare -x APPS_DIR="pkg/qct/software"
+declare -x APPS_PATH="/pkg/qct/software"
+declare -x ARMHOME=""
+declare -x ARMTOOLS="ARMCT6"
+declare -x BUILDSPEC="KLOCKWORK"
+declare -x CCBIN="/pkg/qct/software/BullseyeCoverage/bin"
+declare -x CCPATH="/pkg/qct/software/BullseyeCoverage"
+declare -x CCTOOL="BullseyeCoverage"
+declare -x CRMPERL="/usr/bin"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+declare -x GNUARM7="/prj/llvm-arm/home/common/build_tools/gcc-linaro-arm-linux-gnueabihf-4.8-2014.02_linux"
+declare -x GNULIBC="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07/aarch64-linux-gnu/libc"
+declare -x GNUPATH="/pkg/pkg/gnu/bin"
+declare -x GNUROOT="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07"
+declare -x GNUTOOL="/pkg/qct/software/arm/linaro-toolchain/aarch64-none-elf/4.9-2014.07/aarch64-linux-gnu"
+declare -x HOME="/home/david"
+declare -x LANG="C.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LLVM32INC="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32/include"
+declare -x LLVMBIN="/pkg/qct/software/llvm/release/arm/3.7.6/bin"
+declare -x LLVMCLANG="/pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6"
+declare -x LLVMINC="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64/include"
+declare -x LLVMLIB="/pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6/lib/linux"
+declare -x LLVMLIBPROP="/pkg/qct/software/llvm/release/arm/3.7.6/lib/clang/3.7.6/lib/linux-propri_rt"
+declare -x LLVMROOT="/pkg/qct/software/llvm/release/arm/3.7.6"
+declare -x LLVMTOOLPATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/bin"
+declare -x LLVMTOOLS="LLVM"
+declare -x LOGNAME="david"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MAIL="/var/mail/david"
+declare -x MAKE_PATH="/pkg/gnu/make/3.81/bin"
+declare -x MUSL32PATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib32"
+declare -x MUSLPATH="/pkg/qct/software/llvm/release/arm/3.7.6/tools/lib64"
+declare -x OLDPWD="/home/david/workspace/firmware/boot_images/QcomPkg/Sdm660Pkg"
+declare -x PATH="/pkg/gnu/make/3.81/bin:/pkg/qct/software/python/2.7/bin:/pkg/qct/software/llvm/release/arm/3.7.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+declare -x PERLPATH="/usr/bin"
+declare -x PWD="/home/david/workspace/firmware/trustzone_images/build/ms"
+declare -x PYTHONBIN="/pkg/qct/software/python/2.7/bin"
+declare -x PYTHON_PATH="/pkg/qct/software/python/2.7/bin"
+declare -x ROOT_DRIVE="/"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="4"
+declare -x SSH_CLIENT="186.116.66.170 49648 22"
+declare -x SSH_CONNECTION="186.116.66.170 49648 10.0.0.4 22"
+declare -x SSH_TTY="/dev/pts/0"
+declare -x TERM="xterm-256color"
+declare -x USER="david"
+declare -x UTILROOT="/pkg"
+declare -x XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/snapd/desktop"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SESSION_ID="1"
+#-------------------------------------------------------------------------------
+# ENVIRONMENT END
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+# BUILD BEGIN
+#-------------------------------------------------------------------------------
+/home/david/workspace/firmware/trustzone_images/tools/build/scons/build/../SCons/scons -f target.scons -c BUILD_ID=KAJAANAA HAL_PLATFORM=660 SOC_HW_VERSION=0x30060000 MSM_ID=660 USES_FLAGS=USES_NO_CP BUILD_VER=40000000 SOC_VERS=0x3007 BUILD_ASIC=660 TARGET_FAMILY=honeybadger CHIPSET=sdm660 lksecapp
+scons: Reading SConscript files ...
+------------------------------------------------------------------------------
+   Loading OEM build system
+------------------------------------------------------------------------------
+PYTHON Ver    = 2.7.17 (default, Jul  1 2022, 15:56:32) 
+[GCC 7.5.0] 
+SCONS Ver     = 2.0.0.final.0 
+SCONS QAPI    = 1.0.6 
+TARGET_ROOT   = /home/david/workspace/firmware 
+BUILD_ROOT    = /home/david/workspace/firmware/trustzone_images 
+BUILD_MS_ROOT = /home/david/workspace/firmware/trustzone_images/build/ms 
+MBN_ROOT      = /home/david/workspace/firmware/trustzone_images/build/ms/bin/KAJAANAA
+BUILD_ID      = KAJAANAA
+BUILD_VER     = 40000000
+BUILD_ASIC    = 660
+MSM_ID        = 660
+CHIPSET       = sdm660
+TARGET_FAMILY = honeybadger
+HAL_PLATFORM  = 660
+ 
+COMMAND_LINE_TARGETS are ['lksecapp']
+BUILD_TARGETS are        ['lksecapp']
+
+** INFO: Found 4 CPUs, running with -j 8
+
+
+------------------------------------------------------------------------------
+   Loading APPS build system
+------------------------------------------------------------------------------
+!#!# Command line targets = ['lksecapp']
+** INFO: Begin Target Config: KAJAANAAA
+** INFO: Target configuration file: target.builds
+** INFO: End Target Config: KAJAANAAA
+!! WARNING: VMIDMT not implemented... using stubs.
+!! WARNING: XPU not implemented... using stubs.
+!! WARNING: HYP target not implemented... using stubs.
+!! WARNING: SMEM type uses default header.
+** INFO: LLVMBIN   = /pkg/qct/software/llvm/release/arm/3.7.6/bin
+RuntimeError: ${LLVMBIN} not found using system environment.:
+  File "/home/david/workspace/firmware/trustzone_images/build/ms/target.scons", line 45:
+    env.Tool('ComSConstruct', toolpath = ['${BUILD_ROOT}/tools/build/scons/build'])
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 1692:
+    tool(self)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Tool/__init__.py", line 180:
+    self.generate(env, *args, **kw)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/build/ComSConstruct.py", line 54:
+    env.LoadImageUnits(env.get('IMAGE_ROOT_DIR_PATTERNS'))
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 222:
+    return self.method(*nargs, **kwargs)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1277:
+    load_sub_scripts(env, dir_patterns, script_name_patterns, "image", clone_env=True)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1531:
+    node.load_scripts(script_list, script_type, clone_env=clone_env)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1576:
+    env.SConscript(script, exports='env')
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Script/SConscript.py", line 551:
+    return _SConscript(self.fs, *files, **subst_kw)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Script/SConscript.py", line 260:
+    exec _file_ in call_stack[-1].globals
+  File "/home/david/workspace/firmware/trustzone_images/apps/bsp/trustzone/build/SConscript", line 60:
+    invokeSCons(alias, target)
+  File "/home/david/workspace/firmware/trustzone_images/apps/bsp/trustzone/build/SConscript", line 43:
+    callInit(env, app_params_dict[alias])
+  File "/home/david/workspace/firmware/trustzone_images/apps/bsp/trustzone/build/apps_config.py", line 32:
+    env.InitBuildConfig()
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 222:
+    return self.method(*nargs, **kwargs)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/config.py", line 119:
+    env.LoadToolScript("".join([tool , ext]))
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/SCons/Environment.py", line 222:
+    return self.method(*nargs, **kwargs)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/utils.py", line 1259:
+    m.generate(env)
+  File "/home/david/workspace/firmware/trustzone_images/tools/build/scons/scripts/llvm.py", line 177:
+    raise RuntimeError, "${LLVMBIN} not found using system environment."
+
+==============================================================================
+   SCons build summary
+==============================================================================
+** Build time...
+ Build start  : Tue Sep 20 13:04:06 2022
+ Build end    : Tue Sep 20 13:04:06 2022
+ Elapsed time : 0:00:01
+#-------------------------------------------------------------------------------
+# BUILD END
+#-------------------------------------------------------------------------------
+Start Time = Tue Sep 20 13:04:06 UTC 2022 - End Time = Tue Sep 20 13:04:06 UTC 2022
+Elapsed Time = 0 seconds

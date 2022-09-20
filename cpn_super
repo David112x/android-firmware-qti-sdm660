@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+
+use strict;
+
+my $base_path = $ENV{'PWD'};
+my $out = "$base_path/out_super";
+#my $outdump = "$base_path/outdump";
+my $user_name = $ENV{'USER'};
+my $user_home = $ENV{'HOME'};
+
+
+
+if(-d $out)
+{
+    system("rm -rf $out");
+}
+system("mkdir -p $out");
+
+
+
+chdir("$base_path/common/build/emmc/bin/asic/sparse_images/");
+#system("python build.py --hlos");
+
+my $tool_name="$base_path/common/config/storage/checksparse.py";
+my $root_dir="";
+my $sparse_dir="$base_path/LINUX/android/out/dist/";
+my $sparse_dir2="$base_path/LINUX/android/out/target/product/sdm660_64/";
+my $rawprogram_xml="./../../../rawprogram0.xml";
+system("python $tool_name -i $rawprogram_xml -s   $sparse_dir  -s  $sparse_dir2 -o rawprogram_unsparse.xml");
+
+
+chdir($base_path);
+print("Split finished!!!\n");
+
+
+
+
+
+
+#gpt_backup0.bin gpt_both0.bin gpt_main0.bin patch0.xml
+#my @gpt_list = ("gpt_backup0.bin", "gpt_both0.bin", "gpt_main0.bin", "patch0.xml");
+#foreach (@gpt_list)
+#{
+#    system("cp $base_path/common/build/emmc/$_ $out");
+#}
+#emmc_appsboot.mbn boot.img recovery.img mdtp.img
+# fs_image.tar.gz 
+my @ap_list = ("userdata.img", "boot.img", "recovery.img","dtbo.img",  "vbmeta.img","vbmeta_system.img");
+foreach (@ap_list)
+{
+    #system("cp $base_path/../out/target/product/sdm710/$_ $out");
+    system("cp $base_path/LINUX/android/out/target/product/sdm660_64/obj/PACKAGING/target_files_intermediates/sdm660_64-target_files-eng.build/IMAGES/$_ $out"); 
+}
+my @ap_list = ( "mdtp.img", "splash.img","persist.img","abl.elf", "metadata.img");
+foreach (@ap_list)
+{
+    #system("cp $base_path/../out/target/product/sdm710/$_ $out");
+    system("cp $base_path/LINUX/android/out/target/product/sdm660_64/$_ $out"); 
+}
+
+#split img
+system("cp $base_path/common/build/emmc/bin/asic/sparse_images/* $out");
+system("cp $base_path/common/build/emmc/rawprogram0.xml $out");
+
+=pod
+=cut
+my ($sec, $min, $hour, $day, $month, $year, $a, $b, $c) = localtime(time);
+my $zip_name = sprintf("super_img_%d%02d%02d_%02d%02d%02d.zip", $year+1900, $month+1, $day, $hour, $min, $sec);
+print "$zip_name\n";
+
+chdir("$out");
+#system("cp rawprogram0.xml rawprogram_unsparse.xml");
+
+
+
+chdir("$out");
+system("zip $zip_name ./*");
+system("cp $zip_name  $user_home/660_image_Q/");

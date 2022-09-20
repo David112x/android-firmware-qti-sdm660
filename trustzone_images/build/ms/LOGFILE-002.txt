@@ -1,0 +1,54 @@
+
+Diagnostic info
+----------------------------------------
+Platform: linux2
+Python version: 2.7.17 (default, Jul  1 2022, 15:56:32) 
+[GCC 7.5.0]
+Current directory: /home/david/workspace/firmware/trustzone_images
+Build root: /home/david/workspace/firmware/trustzone_images
+SCons root: /home/david/workspace/firmware/trustzone_images/tools/build/scons
+OS version : Linux 5.4.0-1090-azure
+Host Name : Ubuntu
+Build Command Line: build_all.py -b TZ.BF.4.0 CHIPSET=sdm660 -c
+----------------------------------------
+Command line options:
+Clean: True
+Clean and build: False
+Clean and pack: False
+Use default target: False
+Mapreport: False
+Verbose: False
+----------------------------------------
+BRANCH:		TZ.BF.4.0
+1 CHIPSET:	sdm660
+----------------------------------------
+
+Preparing to build...
+
+Build parameters:
+BUILD_ASIC: 660
+BUILD_ID: KAJAANAA
+BUILD_VER: 40000000
+CHIPSET: sdm660
+HAL_PLATFORM: 660
+MSM_ID: 660
+SOC_HW_VERSION: 0x30060000
+SOC_VERS: 0x3007
+TARGET_FAMILY: honeybadger
+Cleaning TZ.BF.4.0 for sdm660
+Log: build-log-002.txt
+[15807] Building lksecapp
+
+
+Starting to build lksecapp ...
+
+
+build command encountered errors: /home/david/workspace/firmware/trustzone_images/tools/build/scons/build/build.sh -f target.scons -c BUILD_ID=KAJAANAA HAL_PLATFORM=660 SOC_HW_VERSION=0x30060000 MSM_ID=660 USES_FLAGS=USES_NO_CP BUILD_VER=40000000 SOC_VERS=0x3007 BUILD_ASIC=660 TARGET_FAMILY=honeybadger CHIPSET=sdm660 lksecapp
+[15807] error 2 while building lksecapp
+2 in worker 15807 while building lksecapp - stopping build
+Terminating all workers
+All 1 jobs complete
+Worker 15807 failed with error 2
+Error encountered when cleaning TZ.BF.4.0 for sdm660
+Build encountered errors
+Total elapsed time: 0 minutes, 7 seconds
