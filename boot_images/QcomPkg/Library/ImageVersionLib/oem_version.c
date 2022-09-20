@@ -11,7 +11,7 @@
 #                                                                            
 # *** AUTO GENERATED FILE - DO NOT EDIT                                      
 #                                                                            
-# GENERATED: Tue Sep 20 13:04:00 2022 
+# GENERATED: Tue Sep 20 13:31:27 2022 
 #============================================================================
 */
 const char IMAGE_VARIANT_STRING_AUTO_UPDATED[]="IMAGE_VARIANT_STRING=Sdm660LA";
